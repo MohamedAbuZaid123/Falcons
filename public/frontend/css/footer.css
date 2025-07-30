@@ -1,0 +1,155 @@
+.FooterC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 20vw;
+  background-color: #30383d;
+  overflow-x: hidden;
+}
+.FooterP1 {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+.FOP1S1 {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--PMGR-20px);
+}
+.ar.FOP1S1 {
+  align-items: center;
+}
+.FOP1S1P1 img {
+  width: 15vw;
+}
+.FOP1S1P2 {
+  color: #f9f6c8;
+  font-size: var(--font-12px);
+  width: 17vw;
+}
+.ar.FOP1S1P2 {
+  text-align: center;
+}
+.FOP1S {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--PMGR-12px);
+}
+.FOPSP1 {
+  color: #ebc173;
+  font-size: var(--font-20px);
+  text-transform: uppercase !important;
+}
+.FOPSP1L,
+.FOPSP1L:active,
+.FOPSP1L:visited {
+  color: #f9f6c8;
+  font-size: var(--font-16px);
+  text-decoration: none;
+}
+/*  */
+.FooterC2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 5vw;
+  background-color: #f9f5dc;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.FooC2S {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FooC2SP1 {
+  color: #653112;
+  font-size: var(--font-16px);
+}
+.FooC2SP2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--PMGR-16px);
+}
+.FooC2SP2A,
+.FooC2SP2A:active,
+.FooC2SP2A:visited {
+  text-decoration: none;
+}
+.FooC2SP2A img {
+  width: 1.5vw;
+}
+.FOAdd {
+  width: 20vw;
+  text-transform: capitalize !important;
+}
+@media (max-width: 768px) {
+  .FooterC {
+    height: auto;
+    width: 100vw;
+  }
+  .FooterP1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--PMGR-32px) 0;
+    gap: var(--PMGR-32px);
+  }
+  .FOP1S1 {
+    align-items: center;
+    width: auto;
+  }
+  .FOP1S1P1 img {
+    width: 40vw;
+  }
+  .FOP1S1P2 {
+    width: auto;
+    text-align: center;
+    font-size: var(--font-16px);
+  }
+  .FOP1S {
+    align-items: center;
+    position: relative;
+    width: 70%;
+  }
+  .FOP1S:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 2px;
+    background-color: #f9f6c8;
+  }
+  .FOPSP1L {
+    width: auto;
+    text-align: center;
+  }
+  .FooterC2 {
+    height: auto;
+    padding: var(--PMGR-16px) 0;
+  }
+  .FooC2S {
+    flex-direction: column;
+    gap: var(--PMGR-20px);
+  }
+  .FooC2SP1 {
+    font-size: var(--font-20px);
+  }
+  .FooC2SP2A img {
+    width: 7vw;
+  }
+  .FooterC2 {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,322 @@
+/* import Avenir font */
+
+@font-face {
+  font-family: AvenirN;
+  src: url("../fonts/Avenir/AvenirLTStd-Book.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: AvenirB;
+  src: url("../fonts/Avenir/AvenirLTStd-Heavy.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* import Cairo font */
+
+@font-face {
+  font-family: CairoR;
+  src: url("../fonts/Cairo/Cairo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: CairoL;
+  src: url("../fonts/Cairo/Cairo-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: CairoB;
+  src: url("../fonts/Cairo/Cairo-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* import Changa font */
+
+@font-face {
+  font-family: ChangaR;
+  src: url("../fonts/Changa/Changa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: ChangaM;
+  src: url("../fonts/Changa/Changa-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: ChangaL;
+  src: url("../fonts/Changa/Changa-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: ChangaB;
+  src: url("../fonts/Changa/Changa-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: ChangaEXB;
+  src: url("../fonts/Changa/Changa-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root For WebView */
+:root {
+  /*  */
+  /* Colors */
+  --color-primary: #e9dc82;
+  --color-primary2: #653112;
+  --color-white: #ffffff;
+  --color-gray: #c5c5c7;
+  /*  */
+  /* Fonts Size */
+  /* Font Sizes (Default) */
+  --font-8px: 0.568vw; /* 8px */
+  --font-12px: 0.852vw; /* 12px */
+  --font-14px: 0.994vw; /* 16px */
+  --font-16px: 1.13vw; /* 16px */
+  --font-18px: 1.278vw; /* 16px */
+  --font-20px: 1.42vw; /* 20px */
+  --font-24px: 1.704vw; /* 24px */
+  --font-32px: 2.272vw; /* 32px */
+  --font-48px: 3.408vw; /* 48px */
+  --font-54px: 3.834vw; /* 48px */
+  --font-64px: 4.554vw; /* 64px */
+  /*  */
+  /*  */
+  /* Space */
+  /* GapBetween Sections  */
+  --PMGR-4px: 0.284vw;
+  --PMGR-8px: 0.568vw;
+  --PMGR-12px: 0.852vw;
+  --PMGR-16px: 1.31vw;
+  --PMGR-20px: 1.42vw;
+  --PMGR-24px: 1.704vw;
+  --PMGR-28px: 1.988vw;
+  --PMGR-32px: 2.272vw;
+  --PMGR-40px: 2.84vw;
+  --PMGR-48px: 3.408vw;
+  --PMGR-64px: 4.554vw;
+  --PMGR-96px: 6.816vw;
+  --PMGR-128px: 9.088vw;
+}
+
+/* For MobView */
+@media (max-width: 768px) {
+  :root {
+    /*  */
+    /* Colors */
+    --color-primary: #e9dc82;
+    --color-primary2: #653112;
+    --color-white: #ffffff;
+    --color-gray: #c5c5c7;
+    /*  */
+    /*  */
+    /*  */
+    /* Font Sizes (Default) */
+    --font-8px: 1.856vw; /* 8px */
+    --font-12px: 2.784vw; /* 12px */
+    --font-14px: 3.248vw; /* 16px */
+    --font-16px: 3.712vw; /* 16px */
+    --font-18px: 4.176vw; /* 18px */
+    --font-20px: 4.64vw; /* 20px */
+    --font-24px: 5.568vw; /* 24px */
+    --font-32px: 7.424vw; /* 32px */
+    --font-48px: 11.136vw; /* 48px */
+    --font-54px: 12.528vw; /* 48px */
+    --font-64px: 14.848vw; /* 64px */
+    /*  */
+    /*  */
+    /* Space */
+    /* GapBetween Sections  */
+    --PMGR-4px: 0.928vw;
+    --PMGR-8px: 1.856vw;
+    --PMGR-12px: 2.784vw;
+    --PMGR-16px: 3.712vw;
+    --PMGR-20px: 4.64vw;
+    --PMGR-24px: 5.568vw;
+    --PMGR-28px: 6.496vw;
+    --PMGR-32px: 7.424vw;
+    --PMGR-40px: 9.28vw;
+    --PMGR-48px: 11.136vw;
+    --PMGR-64px: 14.848vw;
+    --PMGR-96px: 22.272vw;
+    --PMGR-128px: 29.696vw;
+  }
+}
+
+/* Cairo Classes */
+
+.CairoRegH150,
+.CairoRegH150 a,
+.CairoRegH150 a:active,
+.CairoRegH150 a:visited {
+  font-family: CairoR;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.CairoRegH24px,
+.CairoRegH24px a,
+.CairoRegH24px a:active,
+.CairoRegH24px a:visited {
+  font-family: CairoR;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.CairoRegH38px,
+.CairoRegH38px a,
+.CairoRegH38px a:active,
+.CairoRegH38px a:visited {
+  font-family: CairoR;
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--PMGR-32px);
+}
+
+.CairoLightH20px,
+.CairoLightH20px a,
+.CairoLightH20px a:active,
+.CairoLightH20px a:visited {
+  font-family: CairoL;
+  font-style: normal;
+  font-weight: 300;
+  line-height: var(--PMGR-20px);
+  text-transform: capitalize;
+}
+
+.CairoLightH38px,
+.CairoLightH38px a,
+.CairoLightH38px a:active,
+.CairoLightH38px a:visited {
+  font-family: CairoL;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--PMGR-32px);
+  text-transform: capitalize;
+}
+
+.CairoLightH24px,
+.CairoLightH24px a,
+.CairoLightH24px a:active,
+.CairoLightH24px a:visited {
+  font-family: CairoL;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--PMGR-20px);
+  text-transform: capitalize;
+}
+
+.CairoVLightH24px,
+.CairoVLightH24px a,
+.CairoVLightH24px a:active,
+.CairoVLightH24px a:visited {
+  font-family: CairoL;
+  font-style: normal;
+  font-weight: 300;
+  line-height: var(--PMGR-20px);
+  text-transform: capitalize;
+}
+
+/*  */
+
+/*  */
+/*  */
+/* Avenir Classes */
+.AvenirH150,
+.AvenirH150 a,
+.AvenirH150 a:active,
+.AvenirH150 a:visited {
+  font-family: AvenirN;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.AvenirH24px,
+.AvenirH24px a,
+.AvenirH24px a:active,
+.AvenirH24px a:visited {
+  font-family: AvenirN;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--PMGR-20px);
+}
+
+.AvenirH38px,
+.AvenirH38px a,
+.AvenirH38px a:active,
+.AvenirH38px a:visited {
+  font-family: AvenirN;
+  font-style: normal;
+  font-weight: 600;
+  line-height: var(--PMGR-32px);
+}
+
+.AvenirH24pxL,
+.AvenirH24pxL a,
+.AvenirH24pxL a:active,
+.AvenirH24pxL a:visited {
+  font-family: AvenirN;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--PMGR-20px);
+}
+
+.AvenirH38pxL,
+.AvenirH38pxL a,
+.AvenirH38pxL a:active,
+.AvenirH38pxL a:visited {
+  font-family: AvenirN;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--PMGR-32px);
+}
+
+.AvenirH38pxB,
+.AvenirH38pxB a,
+.AvenirH38pxB a:active,
+.AvenirH38pxB a:visited {
+  font-family: AvenirB;
+  font-style: normal;
+  font-weight: 750;
+  line-height: var(--PMGR-32px);
+}
+
+/* Changa Classes */
+
+.ChangaHNpxM,
+.ChangaHNpxM a,
+.ChangaHNpxM a:active,
+.ChangaHNpxM a:visited {
+  font-family: ChangaM;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ChangaH38pxB,
+.ChangaH38pxB a,
+.ChangaH38pxB a:active,
+.ChangaH38pxB a:visited {
+  font-family: ChangaB;
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--PMGR-32px);
+}

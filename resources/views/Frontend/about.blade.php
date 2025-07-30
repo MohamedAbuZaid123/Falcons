@@ -1,0 +1,156 @@
+@extends('Frontend.layouts.app')
+
+@section('title', 'Roaa - About Us')
+
+
+@section('heroTitle', $hero['title_en'] ?? 'About ROAA')
+
+@section('heroDescription')
+    @if (isset($hero['descriptions_en']))
+        @foreach ($hero['descriptions_en'] as $line)
+            <span>{{ $line }}</span><br />
+        @endforeach
+    @else
+        <span>At Roaa Development, We turn visions into meaningful spaces</span><br />
+        <span> it deserves meaning, comfort, and a future.</span>
+    @endif
+@endsection
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('frontend/css/about.css') }}" />
+@endpush
+
+@section('content')
+    <div class="AboutContainer">
+        <div id="AboutContent">
+            <!-- About Section One -->
+            <section class="AboutS1">
+                <div class="AboutS1P1C CairoRegH38px">{{ $aboutS1['question_en'] }}</div>
+                <div class="AboutS1P2C">
+                    <div class="AboutS1P1">
+                        <div class="AboutS1P1T">
+                            <div class="AS1P1Text CairoLightH38px">{{ $aboutS1['title_en'] }}</div>
+                        </div>
+                        <ul class="AboutS1P1B">
+                            @for ($i = 0; $i < count($aboutS1['descriptions_en']); $i++)
+                                <li class="AboutS1P1BText AvenirH38pxL">
+                                    {{ $aboutS1['descriptions_en'][$i] }}
+                                </li>
+                                <br />
+                            @endfor
+                        </ul>
+                    </div>
+                    <div class="AboutS1P2">
+                        <img src="{{ asset('storage/' . $aboutS1['image']) }}" alt="" />
+                    </div>
+                </div>
+            </section>
+            <!-- End Section one -->
+
+            <!-- About Section Two -->
+            <section class="AboutS2">
+                <div class="AboutS2P1">
+                    <img src="{{ asset('frontend/svg/Home/HomeS3P1.svg') }}" alt="" class="ABS2P1Img" />
+                    <div class="ABS2P1Text CairoLightH38px">our services</div>
+                </div>
+                <div class="AboutS2P2">
+                    <!-- Service Box -->
+                    @foreach ($services as $service)
+                        <a href="{{ route('Frontend.services') }}" class="ABS2P2Box">
+                            <!-- For img src the orignal Svg , data-hover is the svg when we hover -->
+                            <img src="{{ asset('storage/' . $service->dark_icon) }}"
+                                data-hover="{{ asset('storage/' . $service->icon) }}" alt="" class="ABS2P2BoxImg" />
+                            <div class="ABS2P2BoxTitle CairoLightH24px">
+                                {{ $service->title }}
+                            </div>
+                            <div class="ABS2P2BoxText lineAb CairoLightH24px">
+                                ---------------
+                            </div>
+                            <div class="ABS2P2BoxText CairoLightH24px">
+                                View More
+                            </div>
+                        </a>
+                    @endforeach
+                </div>
+            </section>
+            <!-- End Section Two -->
+
+            <!-- About Section Three -->
+            <section class="AboutS3 AvenirH38px">
+                {{ $aboutS2['header_en'] }}
+            </section>
+            <!-- End Section Three -->
+
+            <!-- About Section Four -->
+            <section class="AboutS4">
+                <div class="AboutS4P1">
+                    <!-- Box Left -->
+                    <div class="AbS4P1BL ABS4P1B">
+                        <div class="AbS4P1BGL">
+                            <img src="{{ asset('storage/' . $aboutS2['boxes'][0]['image']) }}" alt="">
+                        </div>
+                        <div class="ABS4P1Content">
+                            <div class="ABS4P1BLP1">
+                                <div class="ABS4P1BLP1L CairoLightH38px">
+                                    {{ $aboutS2['boxes'][0]['title_en'] }} </div>
+                                <div class="ABS4P1BLP1R">
+                                    <img src="{{ asset('frontend/svg/Home/Vision.svg') }}" alt=""
+                                        data-hover="{{ asset('frontend/svg/Home/VisionHover.svg') }}" class="ABS4P1BImg" />
+                                </div>
+                            </div>
+                            <div class="ABS4P1BLP2 CairoLightH38px">{{ $aboutS2['boxes'][0]['descriptions_en'] }}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box Right -->
+                    <div class="AbS4P1BR ABS4P1B">
+                        <div class="AbS4P1BGR">
+                            <img src="{{ asset('storage/' . $aboutS2['boxes'][1]['image']) }}" alt="">
+                        </div>
+                        <div class="ABS4P1Content">
+                            <div class="ABS4P1BLP1">
+                                <div class="ABS4P1BLP1L CairoLightH38px">
+                                    {{ $aboutS2['boxes'][1]['title_en'] }}
+                                </div>
+                                <div class="ABS4P1BLP1R">
+                                    <img src="{{ asset('frontend/svg/Home/Mision.svg') }}" alt=""
+                                        data-hover="{{ asset('frontend/svg/Home/MisionHover.svg') }}" class="ABS4P1BImg" />
+                                </div>
+                            </div>
+                            <div class="ABS4P1BLP2 CairoLightH38px">
+                                {{ $aboutS2['boxes'][1]['descriptions_en'] }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section Four -->
+
+            <!-- About Section Five -->
+            <section class="AboutS5">
+                <!--  -->
+                <div class="AboutS5P1">
+                    <div class="ABS5P1T AvenirH38px"> {{ $aboutS2['boxes'][2]['title_en'] }}</div>
+                    <ul class="ABS5P1B AvenirH24px">
+                        @for ($i = 0; $i < count($aboutS2['boxes'][2]['descriptions_en']); $i++)
+                            <li>
+                                {{ $aboutS2['boxes'][2]['descriptions_en'][$i] }}
+                            </li>
+                            <br />
+                        @endfor
+                    </ul>
+                </div>
+                <!--  -->
+                <div class="AboutS5P2">
+                    <img src="{{ asset('storage/' . $aboutS2['boxes'][2]['image']) }}" alt="" />
+                </div>
+                <!--  -->
+            </section>
+            <!-- End Section Five -->
+        </div>
+    </div>
+@endsection
+
+@push('scripts')
+    <script src="{{ asset('frontend/js/about.js') }}"></script>
+@endpush

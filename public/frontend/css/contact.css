@@ -1,0 +1,179 @@
+.ContactContent {
+  display: flex;
+  background-color: #eae9e5;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--PMGR-48px);
+  padding: var(--PMGR-48px) 0;
+}
+.ContactS1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CoS1P1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--PMGR-8px);
+}
+.CoS1P1T1 {
+  color: #ebc173;
+  font-size: var(--font-16px);
+  text-transform: uppercase;
+}
+.CoS1P1T2 {
+  color: #653112;
+  font-size: var(--font-32px);
+  text-transform: capitalize;
+}
+.CoS1P1T3 {
+  color: #653112;
+  font-size: var(--font-16px);
+  text-transform: uppercase;
+}
+.CoS1P2 {
+  display: flex;
+  flex-direction: column;
+}
+.FormCS1 {
+  display: flex;
+  align-items: center;
+  gap: var(--PMGR-32px);
+  padding-top: var(--PMGR-24px);
+}
+.FormInputs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--PMGR-8px);
+}
+.FoTitle {
+  text-transform: uppercase;
+  font-size: var(--font-16px);
+}
+.input {
+  height: 3vw;
+  padding: var(--PMGR-8px) var(--PMGR-12px);
+  border-radius: var(--PMGR-8px);
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.input::placeholder {
+  font-family: AvenirN;
+  color: #eae9e5;
+  font-size: var(--font-16px);
+}
+.input:focus {
+  outline: none;
+}
+.inputM {
+  height: 10vw;
+  overflow-y: scroll;
+  resize: none;
+  box-sizing: border-box;
+}
+.FormCS5 {
+  display: flex;
+  align-items: center;
+  gap: var(--PMGR-8px);
+}
+.FormCS5T {
+  color: #344054;
+  font-size: var(--font-16px);
+  text-transform: uppercase;
+}
+.FoCheck {
+  -ms-transform: scale(1.4); /* IE */
+  -moz-transform: scale(1.4); /* FF */
+  -webkit-transform: scale(1.4); /* Safari and Chrome */
+  -o-transform: scale(1.4); /* Opera */
+  transform: scale(1.4);
+}
+.FormBtnS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: var(--PMGR-8px) var(--PMGR-12px);
+  border-radius: 8px;
+  border: 1px solid var(--color-5, #653112);
+  background: var(--color-5, #653112);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #ebc173;
+  font-size: var(--font-16px);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.error-msg {
+  color: red;
+  font-family: AvenirN;
+  font-size: var(--font-12px);
+}
+.FormCS5,
+.FormCS6 {
+  padding-top: var(--PMGR-12px);
+}
+
+.ContactS2 {
+  display: flex;
+  padding: 52.915px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 6.614px;
+  background: var(--color-1, #f9f5dc);
+  color: #653112;
+  font-size: var(--font-16px);
+  text-transform: uppercase;
+}
+.ContactS2P {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--PMGR-8px);
+}
+.ContactS2P,
+.ContactS2P a,
+.ContactS2P a:active,
+.ContactS2P a:visited {
+  text-decoration: none;
+  color: #653112;
+}
+.ContactS2P4A {
+  display: flex;
+  gap: var(--PMGR-24px);
+}
+.ContactS2PLast {
+  display: flex;
+  gap: var(--PMGR-24px);
+}
+@media (max-width: 768px) {
+  .ContactContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FormCS1 {
+    flex-direction: column;
+    gap: var(--PMGR-12px);
+  }
+  .FormCS1P1,
+  .FormCS1P2 {
+    width: 100%;
+  }
+  .input {
+    height: 10vw;
+  }
+  .FoCheck {
+    transform: scale(1.2);
+  }
+  .CoS1P1T3 {
+    padding: 0 var(--PMGR-24px);
+    text-align: center;
+  }
+  .CoS1P1 {
+    gap: var(--PMGR-24px);
+  }
+}

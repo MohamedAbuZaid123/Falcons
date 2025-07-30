@@ -1,0 +1,369 @@
+.HeroSlider {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 99vw;
+    overflow: hidden;
+    background: #111;
+  }
+  .HeroContent {
+    position: absolute;
+    left: 16%;
+    top: 40%;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+  }
+  .ar.HeroContent {
+    left: auto;
+    right: 16%;
+  }
+  .HeroTitle {
+    color: #f9f6c8;
+    font-size: var(--font-54px);
+    text-transform: capitalize;
+  }
+  .HeroDesc {
+    color: var(--color-4, #eae9e5);
+    font-size: var(--font-24px);
+    padding-bottom: var(--PMGR-24px);
+  }
+
+  /*  */
+  .HeroA,
+  .HeroA:active,
+  .HeroA:visited {
+    text-decoration: none;
+  }
+  .HeroBtn {
+    display: flex;
+    width: 241px;
+    padding: 14px 27.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--color-4, #eae9e5);
+    background-color: transparent;
+    cursor: pointer;
+    /* for text */
+    text-align: center;
+    font-size: var(--font-16px);
+    text-transform: uppercase;
+    color: #eae9e5;
+  }
+  .HeroBtn:hover {
+    background-color: #f9f6c8;
+    color: #653112;
+  }
+
+  .HeroImageWrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.4;
+  }
+
+  .HeroImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+    z-index: 1;
+  }
+
+  .HeroImage.current {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .HeroImage.next {
+    z-index: 3;
+  }
+
+  .HeroDots {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    z-index: 1000;
+  }
+  .ar.HeroDots {
+    right: auto;
+    left: 8%;
+  }
+
+  .dot {
+    width: 0.25vw;
+    height: 0.25vw;
+    background: #ebc173;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .dot-indicator {
+    position: absolute;
+    top: -3.9%;
+    left: -0.5vw;
+    width: 1.3vw;
+    height: 1vw;
+    border: 1px solid #e9dc82;
+    border-radius: 50%;
+    transition: transform 3s ease-in-out;
+    pointer-events: none;
+  }
+  .ar.dot-indicator {
+    left: -0.6vw;
+  }
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+  .HeroNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.5vw;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .HeroNavIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: 1000;
+    pointer-events: all;
+  }
+
+  .HeroNavOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: background 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+  }
+
+  .HeroNavOverlay.active {
+    background: #30383d;
+    opacity: 1;
+  }
+
+  .HeroNavOverlayContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--PMGR-24px);
+  }
+
+  .HeroNavLogo img {
+    width: 3vw;
+  }
+
+  .HeroNavSocials {
+    display: flex;
+    flex-direction: column;
+    gap: var(--PMGR-8px);
+    align-items: flex-start;
+  }
+
+  .HeroNavSocials img {
+    width: 3vw;
+  }
+  .HeroConImgT {
+    display: none;
+  }
+  .HeroConImgB {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .HeroSlider {
+      width: 100vw;
+      transition: margin-top 0.5s ease-in-out;
+      margin-top: -10vw;
+    }
+    .HeroSlider {
+      flex-direction: column;
+      height: auto;
+      width: 100vw;
+      overflow: hidden;
+    }
+    .HeroImageWrapper {
+      width: 100vw;
+      height: 40vh;
+      opacity: 1;
+    }
+    .HeroImage {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.3 !important;
+    }
+    .HeroContent {
+      position: relative;
+      top: unset;
+      left: unset;
+      width: 100%;
+      padding: 48px 32px;
+      text-align: center;
+      z-index: 10;
+      background-color: #ebc173;
+      color: #fff;
+      margin-top: -15vw;
+      align-items: center;
+    }
+    .HeroConImgT {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -3%;
+    }
+    .HeroConImgB {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: -4.7%;
+    }
+    .HeroTitle {
+      color: #653112;
+      font-size: var(--font-32px);
+    }
+    .HeroDesc {
+      color: #f9f5dc;
+      font-size: var(--font-20px);
+      padding: 0 var(--PMGR-32px);
+    }
+    .HeroBtn {
+      width: auto;
+      padding: 14px 24px;
+      margin-top: 10px;
+      background-color: #653112;
+      color: #fff;
+      border: none;
+    }
+    .HeroBtn:hover {
+      background-color: #fff;
+      color: #653112;
+      border: 1px solid #653112;
+    }
+    .HeroDots {
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      top: unset;
+      right: unset;
+      margin: 10px 0;
+      gap: 6vw;
+      background-color: #30383d;
+      height: 20vw;
+    }
+    .dot {
+      width: 4.4px;
+      height: 4.295px;
+    }
+    .dot-indicator {
+      top: 35%;
+      left: 22%;
+      height: 6vw;
+      width: 6vw;
+    }
+    .HeroNav {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      width: 100%;
+    }
+    .HeroNavOverlay.active {
+      background-color: transparent;
+    }
+    .HeroNavIcon {
+      top: 60px;
+      left: 15px;
+      transform: none;
+      display: flex;
+      width: 65px;
+      height: 55px;
+      padding: 0 14px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      background: var(--header-footer, #30383d);
+    }
+    .HeroNavOverlayContent {
+      position: absolute;
+      left: 11.5%;
+      top: 60px;
+      padding: 0;
+    }
+    .HeroNavIcon img {
+      width: 10vw;
+    }
+    .HeroNavOverlay {
+      left: 6%;
+    }
+    .HeroNavSocials {
+      flex-direction: row;
+      background-color: #30383d;
+      border-top-right-radius: var(--PMGR-8px);
+      border-bottom-right-radius: var(--PMGR-8px);
+      align-items: center;
+      padding: 0 var(--PMGR-24px);
+      height: 55px;
+    }
+    .HeroMiniLogo {
+      display: none;
+    }
+    .HeroNavSocials img {
+      width: 8vw;
+      margin-left: 5px;
+    }
+    .HeroNavLogo {
+      display: none;
+    }
+    .HeroDesc br {
+      display: none;
+    }
+    .HeroDesc span {
+      display: block;
+    }
+    .ar.HeroContent {
+      left: auto;
+      right: -0.08%;
+    }
+    .ar.HeroDots {
+      right: auto;
+      left: 0%;
+      transform: translateY(-25%);
+    }
+    .ar.dot-indicator {
+      top: 35%;
+      left: auto;
+      right: 22.5%;
+      height: 6vw;
+      width: 6vw;
+    }
+  }
