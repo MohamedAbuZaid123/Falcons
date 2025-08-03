@@ -20,6 +20,6 @@
         <button class="MenuToggle" onclick="toggleMenu()">
             <img src="{{ asset('frontend/svg/Open.svg') }}" alt="Menu" id="MenuIcon" />
         </button>
-        <a href="{{ route('Frontend.Ar.home') }}" class="LangIcon CairoLightH24px">En</a>
+        <a href="{{ route('Frontend.home') }}" class="LangIcon CairoLightH24px">En</a>
     </div>
 </header>
