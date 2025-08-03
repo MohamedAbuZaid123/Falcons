@@ -55,7 +55,7 @@
                 <div class="AboutS2P2">
                     <!-- Service Box -->
                     @foreach ($services as $service)
-                        <a href="{{ route('Frontend.services') }}" class="ABS2P2Box">
+                        <a href="{{ route('Frontend.Ar.services') }}" class="ABS2P2Box">
                             <!-- For img src the orignal Svg , data-hover is the svg when we hover -->
                             <img src="{{ asset('storage/' . $service->dark_icon) }}"
                                 data-hover="{{ asset('storage/' . $service->icon) }}" alt=""

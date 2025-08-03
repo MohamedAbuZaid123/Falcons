@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}" />
 
 <header class="HeaderC">
-    <a href="/">
+    <a href="{{ route('Frontend.home') }}">
         <img src="{{ asset('frontend/svg/Logo.svg') }}" alt="" class="HeadLogo" />
     </a>
 
@@ -20,6 +20,6 @@
         <button class="MenuToggle" onclick="toggleMenu()">
             <img src="{{ asset('frontend/svg/Open.svg') }}" alt="Menu" id="MenuIcon" />
         </button>
-        <a href="{{ route('Frontend.Ar.home') }}" class="LangIcon CairoLightH24px">Ar</a>
+        <a href="{{ route('Frontend.home') }}" class="LangIcon CairoLightH24px">Ar</a>
     </div>
 </header>
