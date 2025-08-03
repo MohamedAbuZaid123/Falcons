@@ -27,6 +27,6 @@ class Services extends Model
 
     public function projects()
     {
-        return $this->belongsToMany(\App\Models\admin\Project::class, 'project_service', 'service_id', 'project_id');
+        return $this->belongsToMany(\App\Models\Admin\Project::class, 'project_service', 'service_id', 'project_id');
     }
 }
