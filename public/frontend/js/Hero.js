@@ -87,7 +87,7 @@ setTimeout(() => {
     const iconImg = document.getElementById("HeroNavIconImg");
 
     if (window.innerWidth <= 768 && iconImg) {
-        iconImg.src = "Assets/svg/Open.svg";
+        iconImg.src = "frontend/svg/Open.svg";
     }
 
     if (!toggleBtn || !overlay) {
@@ -100,9 +100,9 @@ setTimeout(() => {
 
         if (window.innerWidth <= 768 && iconImg) {
             if (overlay.classList.contains("active")) {
-                iconImg.src = "../svg/CloseMob.svg";
+                iconImg.src = "frontend/svg/CloseMob.svg";
             } else {
-                iconImg.src = "../svg/Open.svg";
+                iconImg.src = "frontend/svg/Open.svg";
             }
         }
     });

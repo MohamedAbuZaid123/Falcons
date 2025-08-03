@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('frontend/css/Hero.css') }}" />
 
-<section class="HeroSlider" id="HeroSliderContainer" dir="rtl">
+<section class="HeroSlider" id="HeroSliderContainer">
     <!-- Navbar Toggle -->
     <div class="HeroNav">
         <div class="HeroNavIcon" id="HeroNavToggle">
@@ -44,7 +44,7 @@
     <div class="HeroDots ar"></div>
 
     <!-- Hero Content -->
-    <div class="HeroContent ar" id="HeroContent">
+    <div class="HeroContent ar" id="HeroContent" dir="rtl">
         <img src="{{ asset('frontend/svg/Hero/HeroCTop.svg') }}" alt="Top Decoration" class="HeroConImgT" />
 
         <div class="HeroTitle ar ChangaHNpxM">

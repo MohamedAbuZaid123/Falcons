@@ -33,6 +33,7 @@
   text-decoration: none;
   line-height: normal;
   font-size: var(--font-12px);
+
 }
 .HeadP2 {
   display: flex;
@@ -61,7 +62,7 @@
 .LangIcon:hover {
   background-color: #653112;
 }
-/* 
+/*
  */
 .NavLinks {
   display: flex;
@@ -124,6 +125,8 @@
     text-decoration: none;
     line-height: normal;
     font-size: var(--font-20px);
+    display: flex;
+    align-items: center;
   }
   .NavLinks {
     flex-direction: column;

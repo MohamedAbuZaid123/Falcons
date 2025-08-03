@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\admin\Services;
+use App\Models\Admin\Services;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use App\Http\Requests\admin\ServicesRequest;
+use App\Http\Requests\Admin\ServicesRequest;
 
 class ServicesController extends Controller
 {

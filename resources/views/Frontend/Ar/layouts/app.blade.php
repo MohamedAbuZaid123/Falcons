@@ -21,7 +21,12 @@
     </div>
 
     @include('Frontend.Ar.layouts.footer')
+    @push('scripts')
+        <script src="{{ asset('frontend/js/loadHeader.js') }}"></script>
+    @endpush
     @stack('scripts')
+
 </body>
+
 
 </html>

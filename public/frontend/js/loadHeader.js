@@ -18,7 +18,7 @@ function toggleMenu() {
         nav.style.transition = "height 0.4s ease, opacity 0.4s ease";
         nav.style.height = "450px";
         nav.style.opacity = "1";
-        menuIcon.src = "Assets/svg/Close.svg";
+        menuIcon.src = "frontend/svg/Close.svg";
         heroSlider.style.transition = "margin-top 0.4s ease";
         heroSlider.style.marginTop = "90vw";
     } else {
@@ -42,7 +42,7 @@ function closeMenu() {
         nav.classList.remove("show");
     }, 800);
 
-    menuIcon.src = "Assets/svg/Open.svg";
+    menuIcon.src = "frontend/svg/Open.svg";
     heroSlider.style.transition = "margin-top 0.4s ease";
     heroSlider.style.marginTop = "-10vw";
 }

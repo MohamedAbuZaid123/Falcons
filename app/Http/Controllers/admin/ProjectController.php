@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\admin\Project;
+use App\Models\Admin\Project;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\admin\ProjectRequest;
+use App\Http\Requests\Admin\ProjectRequest;
 use Illuminate\Support\Facades\Storage;
-use App\Models\admin\Services;
+use App\Models\Admin\Services;
 
 class ProjectController extends Controller
 {

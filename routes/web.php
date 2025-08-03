@@ -2,12 +2,12 @@
 
 use App\Http\Requests\UserRequest;
 use Illuminate\Support\Facades\Route;
-use App\Models\admin\User;
-use App\Models\admin\Services;
-use App\Models\admin\Project;
+use App\Models\Admin\User;
+use App\Models\Admin\Services;
+use App\Models\Admin\Project;
 use App\Models\PageContent;
-use App\Models\admin\Faq;
-use App\Models\admin\contactInfo;
+use App\Models\Admin\Faq;
+use App\Models\Admin\contactInfo;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\ProjectController;
@@ -15,7 +15,7 @@ use App\Http\Controllers\Admin\ContactUsController;
 use App\Http\Controllers\Admin\ServicesController;
 use App\Http\Controllers\Admin\PageContentController;
 use App\Http\Controllers\Admin\FaqController;
-use App\Http\Controllers\admin\ContactInfoController;
+use App\Http\Controllers\Admin\ContactInfoController;
 use Illuminate\Http\Request;
 
 

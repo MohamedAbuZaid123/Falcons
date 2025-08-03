@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\admin\contactInfo;
+use App\Models\Admin\contactInfo;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
