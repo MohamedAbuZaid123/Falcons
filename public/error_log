@@ -1,0 +1,345 @@
+[02-Aug-2025 10:15:04 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:15 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:15 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:18 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:43 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:57 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:15:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:04 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:25 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:26 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:32 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:32 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:45 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:45 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:52 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:16:52 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:08 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:10 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:22 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:38 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:38 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:41 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:43 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:45 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:45 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:47 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:57 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:17:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:19:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:30 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:30 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:33 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:20:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:22 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:59 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:21:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:22:03 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:22:03 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:24:24 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:24:24 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:24:27 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:24:27 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:27:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:27:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:29:54 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:29:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:29:57 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:29:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:30:02 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:30:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:33:43 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:33:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:33:54 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:33:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:34:07 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:34:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:35:07 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:35:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:35:47 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:35:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:36:18 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:36:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:36:21 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:36:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:37:40 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:37:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:37:46 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:37:46 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:43:20 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:43:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:21 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:33 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:45:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:47:11 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:47:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:47:38 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:47:38 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:48:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:48:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:48:33 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:48:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:20 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:21 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 10:57:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 11:01:47 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/public/index.php on line 34
+[02-Aug-2025 11:01:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/public/index.php on line 34

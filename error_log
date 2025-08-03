@@ -1,0 +1,5 @@
+[02-Aug-2025 10:11:01 America/Boise] PHP Warning:  require(/home3/bytesway/public_html/Roaa/vendor/autoload.php): Failed to open stream: No such file or directory in /home3/bytesway/public_html/Roaa/artisan on line 18
+[02-Aug-2025 10:11:01 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/bytesway/public_html/Roaa/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/bytesway/public_html/Roaa/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home3/bytesway/public_html/Roaa/artisan on line 18
