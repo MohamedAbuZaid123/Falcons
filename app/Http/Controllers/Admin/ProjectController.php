@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Admin\Project;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\ProjectRequest;
+use App\Http\Requests\admin\ProjectRequest;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Admin\Services;
 
@@ -14,13 +14,13 @@ class ProjectController extends Controller
 
     public function index()
     {
-        return view('admin/project.index',['projects' => Project::latest()->paginate(10)]);
+        return view('admin.project.index',['projects' => Project::latest()->paginate(10)]);
     }
 
     public function create()
     {
         $services = Services::all();
-        return view('admin/project.create', compact('services'));
+        return view('admin.project.create', compact('services'));
     }
 
 
@@ -45,7 +45,7 @@ class ProjectController extends Controller
     public function edit(Project $project)
     {
         $services = Services::all();
-        return view('admin/project.edit', compact('project', 'services'));
+        return view('admin.project.edit', compact('project', 'services'));
     }
 
 

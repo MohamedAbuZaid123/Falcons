@@ -6,7 +6,7 @@ use App\Models\Admin\Services;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use App\Http\Requests\Admin\ServicesRequest;
+use App\Http\Requests\admin\ServicesRequest;
 
 class ServicesController extends Controller
 {
