@@ -14,7 +14,7 @@ class ServicesController extends Controller
 
     public function index()
     {
-        return view('admin.services.index',['services' => Services::paginate(10)]);
+        return view('admin.services.index',['services' => Services::paginate(12)]);
     }
 
     public function create()

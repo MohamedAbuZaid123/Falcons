@@ -45,7 +45,7 @@
                     </div>
                     <div class="form-group m-form__group">
                         <label class="form-label" for="description">Description</label>
-                        <textarea name="description" id="description" style="height: 140px;"
+                        <textarea name="description" id="description" style="height: 140px;" maxlength="570"
                             class="form-control m-input @error('description') is-invalid @enderror" placeholder="Write a Description" required>{{ old('description', $service->description ?? '') }}</textarea>
                         @error('description')
                             <div class="invalid-feedback d-block">{{ $message }}</div>
@@ -68,7 +68,7 @@
                     <div class="form-group m-form__group">
                         <label class="form-label" for="description_ar" dir="rtl" style="font-size:15px;">تفاصيل
                             الخدمة</label>
-                        <textarea name="description_ar" id="description_ar" dir="rtl" style="height: 140px;"
+                        <textarea name="description_ar" id="description_ar" dir="rtl" style="height: 140px;" maxlength="570"
                             class="form-control m-input @error('description_ar') is-invalid @enderror" placeholder="اكتب الوصف">{{ old('description_ar', $service->description_ar ?? '') }}</textarea>
                         @error('description_ar')
                             <div class="invalid-feedback d-block">{{ $message }}</div>

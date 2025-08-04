@@ -1,10 +1,3 @@
-fetch("Assets/component/header/header.html")
-    .then((response) => response.text())
-    .then((data) => {
-        document.getElementById("header-container").innerHTML = data;
-        setupMenuEvents();
-    });
-
 function toggleMenu() {
     const nav = document.getElementById("NavLinks");
     const menuIcon = document.getElementById("MenuIcon");

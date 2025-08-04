@@ -22,10 +22,10 @@ class ProjectRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'title' => 'required|max:40|unique:projects,title,' . ($this->project->id ?? ''),
-            'title_ar' => 'nullable|max:40|unique:projects,title_ar,' . ($this->project->id ?? ''),
+            'title' => 'required|max:50|unique:projects,title,' . ($this->project->id ?? ''),
+            'title_ar' => 'required|max:50|unique:projects,title_ar,' . ($this->project->id ?? ''),
             'description' => 'required',
-            'description_ar' => 'nullable',
+            'description_ar' => 'required',
             'category' => 'required',
             'services' => 'required',
         ];

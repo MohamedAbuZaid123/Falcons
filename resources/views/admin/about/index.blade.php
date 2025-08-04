@@ -126,7 +126,7 @@
                                                     name="aboutS2[boxes][{{ $i }}][title_en]"
                                                     class="form-control"
                                                     value="{{ old('aboutS2.boxes.' . $i . '.title_en', $aboutS2['boxes'][$i]['title_en'] ?? '') }}"
-                                                    placeholder="Enter English title">
+                                                    placeholder="Enter English title" maxlength="20">
                                                 @error('aboutS2.boxes.' . $i . '.title_en')
                                                     <div class="text-danger small">{{ $message }}</div>
                                                 @enderror
@@ -137,53 +137,48 @@
                                                     name="aboutS2[boxes][{{ $i }}][title_ar]"
                                                     class="form-control text-end"
                                                     value="{{ old('aboutS2.boxes.' . $i . '.title_ar', $aboutS2['boxes'][$i]['title_ar'] ?? '') }}"
-                                                    placeholder="أدخل العنوان بالعربية" dir="rtl">
+                                                    placeholder="أدخل العنوان بالعربية" dir="rtl" maxlength="20">
                                                 @error('aboutS2.boxes.' . $i . '.title_ar')
                                                     <div class="text-danger small">{{ $message }}</div>
                                                 @enderror
                                             </div>
                                         </div>
+                                        @php
+                                            $isList = $i == 2;
+
+                                            $descEn = $aboutS2['boxes'][$i]['descriptions_en'] ?? '';
+                                            $descEn = is_array($descEn) ? implode("\n", $descEn) : $descEn;
+
+                                            $descAr = $aboutS2['boxes'][$i]['descriptions_ar'] ?? '';
+                                            $descAr = is_array($descAr) ? implode("\n", $descAr) : $descAr;
+
+                                            $enPlaceholder = $isList
+                                                ? 'Enter one description per line'
+                                                : 'Enter description';
+                                            $arPlaceholder = $isList ? 'اكتب كل سطر في سطر منفصل' : 'أدخل الوصف';
+                                        @endphp
                                         <div class="row">
                                             <div class="col-md-6 mb-4">
-                                                <label class="form-label">Description{{ $i == 2 ? ' List' : '' }}
+                                                <label class="form-label">Description{{ $isList ? ' List' : '' }}
                                                     (English)</label>
-                                                @php
-                                                    if ($i == 2) {
-                                                        // Third box: description_en is an array
-                                                        $descEn =
-                                                            $aboutS2['boxes'][$i]['descriptions_en'] ??
-                                                            ($aboutS2['boxes'][$i]['descriptions_en'] ?? '');
-                                                        $descEn = is_array($descEn) ? implode("\n", $descEn) : $descEn;
-                                                    } else {
-                                                        // First two boxes: description_en is a string
-                                                        $descEn = $aboutS2['boxes'][$i]['descriptions_en'] ?? '';
-                                                    }
-                                                @endphp
                                                 <textarea name="aboutS2[boxes][{{ $i }}][descriptions_en]" rows="10" class="form-control"
-                                                    placeholder="{{ $i == 2 ? 'Enter one description per line' : 'Enter description' }}">{{ old('aboutS2.boxes.' . $i . '.descriptions_en', $descEn) }}</textarea>
+                                                    maxlength="{{ $isList ? 460 : 200 }}" placeholder="{{ $enPlaceholder }}">{{ old('aboutS2.boxes.' . $i . '.descriptions_en', $descEn) }}</textarea>
                                                 @error('aboutS2.boxes.' . $i . '.descriptions_en')
                                                     <div class="text-danger small">{{ $message }}</div>
                                                 @enderror
                                             </div>
+
                                             <div class="col-md-6 mb-4">
-                                                <label class="form-label">Description{{ $i == 2 ? ' List' : '' }}
+                                                <label class="form-label">Description{{ $isList ? ' List' : '' }}
                                                     (Arabic)</label>
-                                                @if ($i == 2)
-                                                    @php
-                                                        $descAr = $aboutS2['boxes'][$i]['descriptions_ar'] ?? [];
-                                                        $descAr = is_array($descAr) ? implode("\n", $descAr) : $descAr;
-                                                    @endphp
-                                                    <textarea name="aboutS2[boxes][{{ $i }}][descriptions_ar]" rows="10" class="form-control text-end"
-                                                        placeholder="اكتب كل سطر في سطر منفصل" dir="rtl">{{ old('aboutS2.boxes.' . $i . '.descriptions_ar', $descAr) }}</textarea>
-                                                @else
-                                                    <textarea name="aboutS2[boxes][{{ $i }}][descriptions_ar]" rows="10" class="form-control text-end"
-                                                        placeholder="أدخل الوصف" dir="rtl">{{ old('aboutS2.boxes.' . $i . '.descriptions_ar', $aboutS2['boxes'][$i]['descriptions_ar'] ?? '') }}</textarea>
-                                                @endif
+                                                <textarea name="aboutS2[boxes][{{ $i }}][descriptions_ar]" rows="10" class="form-control text-end"
+                                                    maxlength="{{ $isList ? 460 : 200 }}" placeholder="{{ $arPlaceholder }}" dir="rtl">{{ old('aboutS2.boxes.' . $i . '.descriptions_ar', $descAr) }}</textarea>
                                                 @error('aboutS2.boxes.' . $i . '.descriptions_ar')
                                                     <div class="text-danger small">{{ $message }}</div>
                                                 @enderror
                                             </div>
                                         </div>
+
                                         <div class="mb-3">
                                             <label class="form-label">Image</label>
                                             @if (!empty($aboutS2['boxes'][$i]['image']))

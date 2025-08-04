@@ -17,16 +17,18 @@
 
                 <!-- Social Links -->
                 <div class="HeroNavSocials">
-                    <a href="https://www.facebook.com/Advancd.visions" target="_blank">
+                    <a href="{{ $contactInfo->social_links['facebook'] ?? 'https://www.facebook.com/Advancd.visions' }}"
+                        target="_blank">
                         <img src="{{ asset('frontend/svg/Hero/Facebook.svg') }}" alt="Facebook" />
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="{{ $contactInfo->social_links['linkedin'] ?? '#' }}" target="_blank">
                         <img src="{{ asset('frontend/svg/Hero/LinkedIn.svg') }}" alt="LinkedIn" />
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="{{ $contactInfo->social_links['x'] ?? '#' }}" target="_blank">
                         <img src="{{ asset('frontend/svg/Hero/X.svg') }}" alt="X" />
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="{{ $contactInfo->social_links['whatsapp'] ? 'https://wa.me/' . ltrim($contactInfo->social_links['whatsapp'], '+') : '#' }}"
+                        target="_blank">
                         <img src="{{ asset('frontend/svg/Hero/Whatsapp.svg') }}" alt="WhatsApp" />
                     </a>
                 </div>

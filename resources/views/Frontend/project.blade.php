@@ -29,7 +29,7 @@
                 <div class="ProS1P2"></div>
                 <!-- buttons -->
                 <div class="ProS1P3">
-                    <a href="{{ route('Frontend.home') }}" class="ProS1P3Btn AvenirH24px">
+                    <a href="{{ route('Frontend.projects') }}" class="ProS1P3Btn AvenirH24px">
                         <img src="{{ asset('frontend/svg/Projects/ProjectsBackIcon.svg') }}" alt="" />
                         <div>back</div>
                     </a>

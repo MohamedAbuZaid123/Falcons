@@ -36,7 +36,7 @@
                 <div class="col-6">
                     <div class="form-group m-form__group">
                         <label class="form-label" for="title" style="font-size:15px;">Title </label>
-                        <input type="text" name="title" id="title"
+                        <input type="text" name="title" id="title" maxlength="25"
                             class="form-control m-input @error('title', 'required') is-invalid @enderror"
                             value="{{ old('title', $project->title ?? '') }}" placeholder="Title">
                         @error('title')
@@ -46,7 +46,7 @@
 
                     <div class="form-group m-form__group">
                         <label class="form-label" for="description" style="font-size:15px;">Description </label>
-                        <textarea name="description" id="description" style="height: 140px;"
+                        <textarea name="description" id="description" style="height: 140px;" maxlength="600"
                             class="form-control m-input @error('description') is-invalid @enderror" placeholder="Write a Description"
                             style="height: 120px;" required>{{ old('description', $project->description ?? '') }}</textarea>
                         @error('description')
@@ -79,7 +79,7 @@
                     <div class="form-group m-form__group">
                         <label class="form-label" for="title_ar" dir="rtl" style="font-size:15px;">أسم
                             المشروع</label>
-                        <input type="text" name="title_ar" id="title_ar"
+                        <input type="text" name="title_ar" id="title_ar" maxlength="25"
                             class="form-control m-input @error('title_ar') is-invalid @enderror"
                             value="{{ old('title_ar', $project->title_ar ?? '') }}" placeholder="العنوان"
                             dir="rtl">
@@ -91,7 +91,7 @@
                     <div class="form-group m-form__group">
                         <label class="form-label" for="description_ar" dir="rtl" style="font-size:15px;">تفاصيل
                             المشروع</label>
-                        <textarea name="description_ar" id="description_ar" dir="rtl"
+                        <textarea name="description_ar" id="description_ar" dir="rtl" maxlength="600"
                             class="form-control m-input @error('description_ar') is-invalid @enderror" placeholder="اكتب الوصف"
                             style="height: 140px;" required>{{ old('description_ar', $project->description_ar ?? '') }}</textarea>
                         @error('description_ar')
@@ -201,7 +201,7 @@
             paramName: "file",
             maxFilesize: 5,
             acceptedFiles: "image/*",
-            maxFiles: 10,
+            maxFiles: 20,
             addRemoveLinks: false,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

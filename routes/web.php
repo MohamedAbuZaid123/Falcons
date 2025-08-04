@@ -86,7 +86,7 @@ Route::prefix('ar')->group(function () {
     })->name('Frontend.Ar.about');
 
     Route::get('/services', function () {
-        $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+        $hero = PageContent::where('page', 'services')->where('section', 'hero')->first();
 
         return view('Frontend.Ar.services', [
         'services' => Services::all()->where('active', '1'),
@@ -96,7 +96,7 @@ Route::prefix('ar')->group(function () {
     })->name('Frontend.Ar.services');
 
     Route::get('/contact', function() {
-        $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+        $hero = PageContent::where('page', 'contact')->where('section', 'hero')->first();
 
         return view('Frontend.Ar.contact', [
         'contactInfo' => contactInfo::first(),
@@ -109,7 +109,7 @@ Route::prefix('ar')->group(function () {
 
     Route::get('/projects', function () {
 
-        $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+        $hero = PageContent::where('page', 'projects')->where('section', 'hero')->first();
 
         return view('Frontend.Ar.projects', [
         'projects' => Project::all()->where('active', '1'),
@@ -120,7 +120,7 @@ Route::prefix('ar')->group(function () {
 
     Route::get('/projects/{project}', function(Project $project) {
 
-        $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+        $hero = PageContent::where('page', 'projects')->where('section', 'hero')->first();
 
         return  view('Frontend.project', [
         'project' => $project,
@@ -157,7 +157,7 @@ Route::prefix('ar')->group(function () {
 
 
 Route::get('/services', function () {
-    $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+    $hero = PageContent::where('page', 'services')->where('section', 'hero')->first();
 
     return view('Frontend.services', [
     'services' => Services::all()->where('active', '1'),
@@ -167,7 +167,7 @@ Route::get('/services', function () {
 })->name('Frontend.services');
 
 Route::get('/contact', function() {
-    $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+    $hero = PageContent::where('page', 'contact')->where('section', 'hero')->first();
 
     return view('Frontend.contact', [
     'contactInfo' => contactInfo::first(),
@@ -179,7 +179,7 @@ Route::get('/contact', function() {
 Route::post('/contactUsForm', [ContactUsController::class, 'store'])->name('Frontend.contact.store');
 Route::get('/projects', function () {
 
-    $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+    $hero = PageContent::where('page', 'projects')->where('section', 'hero')->first();
 
     return view('Frontend.projects', [
     'projects' => Project::all()->where('active', '1'),
@@ -190,7 +190,7 @@ Route::get('/projects', function () {
 
 Route::get('/projects/{project}', function(Project $project) {
 
-    $hero = PageContent::where('page', 'about')->where('section', 'hero')->first();
+    $hero = PageContent::where('page', 'projects')->where('section', 'hero')->first();
 
     return  view('Frontend.project', [
     'project' => $project,

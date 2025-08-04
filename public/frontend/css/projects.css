@@ -50,6 +50,7 @@
   font-size: var(--font-16px);
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
 .ProS1P3Btn img {
   width: 0.7vw;
@@ -126,6 +127,7 @@
 .ProComP2T {
   color: #653112;
   font-size: var(--font-16px);
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -446,6 +448,7 @@
   }
   .ProComP1 img {
     width: 70vw;
+    height: 60vw;
   }
   .ProComP2A img,
   .ProComP2AOther img {

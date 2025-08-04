@@ -35,7 +35,7 @@
     <link href="{{ asset('assets/vendors/custom/datatables/datatables.bundle.css') }}" rel="stylesheet"
         type="text/css" />
     <!--end::Page Vendors Styles -->
-    <link rel="shortcut icon" href="{{ asset('assets/demo/demo12/media/img/logo/favicon.ico') }}" />
+    <link rel="shortcut icon" href="{{ asset('frontend/svg/Hero/MiniLogo.svg') }}" />
     @stack('styles')
 </head>
 
@@ -141,6 +141,24 @@
                                     class="m-menu__link-text">Users</span></a>
                         </li>
                         <li class="m-menu__section ">
+                            <h4 class="m-menu__section-text">Pages</h4>
+                            <i class="m-menu__section-icon flaticon-more-v2"></i>
+                        </li>
+                        <li class="m-menu__item {{ request()->routeIs('admin.home.edit') ? 'm-menu__item--active' : '' }}"
+                            aria-haspopup="true">
+                            <a href="{{ route('home.edit') }}" class="m-menu__link"><span
+                                    class="m-menu__item-here"></span><i
+                                    class="m-menu__link-icon   flaticon-home-2"></i><span class="m-menu__link-text">Home
+                                    Page</span></a>
+                        </li>
+                        <li class="m-menu__item {{ request()->routeIs('admin.about.edit') ? 'm-menu__item--active' : '' }}"
+                            aria-haspopup="true">
+                            <a href="{{ route('about.edit') }}" class="m-menu__link"><span
+                                    class="m-menu__item-here"></span><i class="m-menu__link-icon  fa fa-users"></i><span
+                                    class="m-menu__link-text">About
+                                    us</span></a>
+                        </li>
+                        <li class="m-menu__section ">
                             <h4 class="m-menu__section-text">Sections</h4>
                             <i class="m-menu__section-icon flaticon-more-v2"></i>
                         </li>
@@ -178,25 +196,6 @@
                                     class="m-menu__item-here"></span><i
                                     class="m-menu__link-icon  fa fa-images"></i><span
                                     class="m-menu__link-text">Hero</span></a>
-                        </li>
-                        <li class="m-menu__section ">
-                            <h4 class="m-menu__section-text">Pages</h4>
-                            <i class="m-menu__section-icon flaticon-more-v2"></i>
-                        </li>
-                        <li class="m-menu__item {{ request()->routeIs('admin.home.edit') ? 'm-menu__item--active' : '' }}"
-                            aria-haspopup="true">
-                            <a href="{{ route('home.edit') }}" class="m-menu__link"><span
-                                    class="m-menu__item-here"></span><i
-                                    class="m-menu__link-icon   flaticon-home-2"></i><span
-                                    class="m-menu__link-text">Home
-                                    Page</span></a>
-                        </li>
-                        <li class="m-menu__item {{ request()->routeIs('admin.about.edit') ? 'm-menu__item--active' : '' }}"
-                            aria-haspopup="true">
-                            <a href="{{ route('about.edit') }}" class="m-menu__link"><span
-                                    class="m-menu__item-here"></span><i
-                                    class="m-menu__link-icon  fa fa-users"></i><span class="m-menu__link-text">About
-                                    us</span></a>
                         </li>
 
                     </ul>
