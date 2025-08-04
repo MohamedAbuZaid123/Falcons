@@ -102,10 +102,10 @@
                         <span class="close-modal" id="closeModal">&times;</span>
                         <img class="modal-content zoomable" id="modalImage" />
                         <button class="modal-prev">
-                            <img src="/Assets/svg/Projects/ModalGoLeft.svg" alt="" />
+                            <img src="{{ asset('frontend/svg/Projects/ModalGoLeft.svg') }}" alt="" />
                         </button>
                         <button class="modal-next">
-                            <img src="/Assets/svg/Projects/ModalGoRight.svg" alt="" />
+                            <img src="{{ asset('frontend/svg/Projects/ModalGoLeft.svg') }}" alt="" />
                         </button>
                     </div>
 
