@@ -39,10 +39,10 @@ class HomePageContentSeeder extends Seeder
 
         // Section 2 Data
         $homeS2 = [
-            'title_en' => 'Welcome to ROAA',
+            'title_en' => 'Welcome to Three Falcnos',
             'title_ar' => 'مرحبًا بكم في رواء',
             'descriptions_en' => [
-                'Roaa Development, a forward-thinking real estate company since 2000 , is committed to building integrated communities that elevate lifestyles With over 30 projects across egypt , including residential and commercial developments all around egypt with a strong presence in Badr city , el sheikh zayed , October , New cairo , Heliopolis and Al sharqia Governorate.',
+                'Three Falcnos Development, a forward-thinking real estate company since 2000 , is committed to building integrated communities that elevate lifestyles With over 30 projects across egypt , including residential and commercial developments all around egypt with a strong presence in Badr city , el sheikh zayed , October , New cairo , Heliopolis and Al sharqia Governorate.',
                 'We believe that purchasing a property is not just a financial decision, but a personal journey. That\'s why we focus on building trust, providing clarity and offering personalized support.'
             ],
             'descriptions_ar' => [
@@ -104,14 +104,14 @@ class HomePageContentSeeder extends Seeder
             $aboutS1 =[
                 "question_en"=> "who we are ?",
                 "question_ar"=>"من نحن ؟",
-                "title_en"=> "Welcome to ROAA",
-                "title_ar"=>"مرحبا بكم في رؤى",
+                "title_en"=> "Welcome to Three Falcnos",
+                "title_ar"=>"مرحبا بكم في Three Falcnos",
                'descriptions_en' => [
-                'Roaa Development, a forward-thinking real estate company since 2000 , is committed to building integrated communities that elevate lifestyles With over 30 projects across egypt , including residential and commercial developments all around egypt with a strong presence in Badr city , el sheikh zayed , October , New cairo , Heliopolis and Al sharqia Governorate.',
+                'Three Falcnos Development, a forward-thinking real estate company since 2000 , is committed to building integrated communities that elevate lifestyles With over 30 projects across egypt , including residential and commercial developments all around egypt with a strong presence in Badr city , el sheikh zayed , October , New cairo , Heliopolis and Al sharqia Governorate.',
                 'We believe that purchasing a property is not just a financial decision, but a personal journey. That’s why we focus on building trust, providing clarity and offering personalized support.'
                 ],
                 'descriptions_ar' => [
-                'رؤى للتطوير العقاري، شركة عقارية رائدة تأسست عام ٢٠٠٠، ملتزمة ببناء مجتمعات متكاملة ترتقي بأنماط الحياة. ',
+                'Three Falcnos للتطوير العقاري، شركة عقارية رائدة تأسست عام ٢٠٠٠، ملتزمة ببناء مجتمعات متكاملة ترتقي بأنماط الحياة. ',
                 'أكثر من ٣٠ مشروعًا في جميع أنحاء مصر، تشمل مشاريع سكنية وتجارية في جميع أنحاء مصر، مع حضور قوي في مدينة بدر، والشيخ زايد، وأكتوبر، والقاهرة الجديدة، ومصر الجديدة، ومحافظة الشرقية. ',
                 'نؤمن بأن شراء عقار ليس مجرد قرار مالي، بل هو رحلة شخصية. ولذلك، نركز على بناء الثقة، وتوفير الوضوح، وتقديم الدعم الشخصي. ',
                 ],

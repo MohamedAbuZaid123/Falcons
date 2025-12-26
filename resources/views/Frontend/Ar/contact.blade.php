@@ -1,5 +1,5 @@
 @extends('Frontend.Ar.layouts.app')
-@section('title', 'Roaa - Contact us')
+@section('title', 'Three Falcnos - Contact us')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/contact.css') }}" />
@@ -15,7 +15,7 @@
         @endforeach
     @else
         <span>لنبنِ المستقبل معًا. </span><br />
-        <span>شركة رؤى للتطوير بجانبكم في كل خطوة.</span>
+        <span>شركة Three Falcnos للتطوير بجانبكم في كل خطوة.</span>
     @endif
 @endsection
 

@@ -20,7 +20,6 @@ class ProjectFactory extends Factory
             'title'=> fake()->sentence(2),
             'description'=> fake()->paragraph(3),
             'active'=>fake()->boolean,
-            'category' => fake()->randomElement(['Interroir & Exterroir', 'Commercial']),
         ];
     }
 }

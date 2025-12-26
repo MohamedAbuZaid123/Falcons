@@ -1,6 +1,6 @@
 @extends('Frontend.layouts.app')
 
-@section('title', 'Roaa - Projects')
+@section('title', 'Three Falcnos - Projects')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/projects.css') }}" />
@@ -56,7 +56,13 @@
                             </button>
                             <div class="ProDisP2" id="imageContainer">
                                 @php
-                                    $images = json_decode($project->images, true);
+                                    $images = $project->images ?? [];
+                                    if (is_string($images)) {
+                                        $images = json_decode($images, true) ?? [];
+                                    }
+                                    if (!is_array($images)) {
+                                        $images = [];
+                                    }
                                 @endphp
                                 @foreach ($images as $image)
                                     <img src="{{ asset('storage/' . $image) }}" alt="" />

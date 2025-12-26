@@ -227,13 +227,18 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  opacity: 0;
+  opacity: 0; /* hidden until hover */
   transition: opacity 0.4s ease-in-out;
   z-index: 1;
 }
 
-
-
+.AbS4P1BGL img,
+.AbS4P1BGR img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .AbS4P1BL:hover .AbS4P1BGL,
 .AbS4P1BR:hover .AbS4P1BGR {
   opacity: 1;
@@ -322,11 +327,9 @@
   width: 30vw;
 }
 .AboutS5:hover {
-  background-image: url("../images/About/AboutS5BG.webp");
+  /* fix case to match actual file name */
+  background-image: url("../images/About/AboutS5BG.jpg");
   align-items: flex-start;
-}
-.AboutS5:hover .AboutS5P2 {
-  opacity: 0;
 }
 .AboutS5:hover .AboutS5P1 {
   margin-top: 3vw;
@@ -456,7 +459,7 @@
     display: none;
   }
   .AboutS5 {
-    background-image: url("../images/About/AboutS5BGMob.png");
+    background-image: url("../images/About/AboutS5BG.jpg");
     background-position: center;
     background-size: cover;
     overflow: hidden;

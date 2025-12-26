@@ -2,7 +2,8 @@
 
 <header class="HeaderC" dir="rtl">
     <a href="{{ route('Frontend.Ar.home') }}">
-        <img src="{{ asset('frontend/svg/Logo.svg') }}" alt="" class="HeadLogo" />
+        <img src="{{ isset($hero['logo']) ? asset('storage/' . $hero['logo']) : asset('frontend/svg/Logo.svg') }}"
+            alt="" class="HeadLogo" />
     </a>
 
     <!-- Navigation links -->

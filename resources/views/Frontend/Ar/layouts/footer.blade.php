@@ -5,7 +5,8 @@
         <!-- Footer P1S1 -->
         <div class="FOP1S1 ar">
             <div class="FOP1S1P1">
-                <img src="{{ asset('frontend/svg/Logo.svg') }}" alt="" />
+                <img src="{{ isset($hero['logo']) ? asset('storage/' . $hero['logo']) : asset('frontend/svg/Logo.svg') }}"
+                    alt="" />
             </div>
             <div class="FOP1S1P2 ar CairoLightH24px">صمم تجارب رقمية مذهلة تعمل على خلق المزيد من السعادة في العالم.
             </div>
@@ -45,7 +46,7 @@
 <!--  -->
 <footer class="FooterC2" dir="rtl">
     <div class="FooC2S">
-        <div class="FooC2SP1 CairoLightH24px">© 2025 رؤى . جميع الحقوق محفوظة.</div>
+        <div class="FooC2SP1 CairoLightH24px">© 2025 Three Falcnos . جميع الحقوق محفوظة.</div>
         <div class="FooC2SP2">
             <a href="{{ $contactInfo->social_links['facebook'] ?? '#' }}" target="_blank" class="FooC2SP2A">
                 <img src="{{ asset('frontend/svg/Footer/FooterIconFB.svg') }}" alt="" />
@@ -56,10 +57,9 @@
             <a href="{{ $contactInfo->social_links['x'] ?? '#' }}" class="FooC2SP2A" target="_blank">
                 <img src="{{ asset('frontend/svg/Footer/X.svg') }}" alt="" />
             </a>
-            <a href="{{ $contactInfo->social_links['whatsapp'] ? 'https://wa.me/' . ltrim($contactInfo->social_links['whatsapp'], '+') : '#' }}"
-                class="FooC2SP2A" target="_blank">
+            {{-- <a href="{{ $contactInfo->social_links['whatsapp'] ?? '#' }}" class="FooC2SP2A" target="_blank">
                 <img src="{{ asset('frontend/svg/Footer/Whatsapp.svg') }}" alt="" />
-            </a>
+            </a> --}}
         </div>
     </div>
 </footer>

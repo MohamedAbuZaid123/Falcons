@@ -1,12 +1,12 @@
 @extends('Frontend.Ar.layouts.app')
 
-@section('title', 'Roaa - Home')
+@section('title', 'Three Falcnos - Home')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/Home.css') }}" />
 @endpush
 
-@section('heroTitle', $hero['title_ar'] ?? 'رؤى')
+@section('heroTitle', $hero['title_ar'] ?? 'Three Falcnos')
 
 @section('heroButtonText', $hero['button']['text_ar'] ?? 'عرض أعمالنا')
 
@@ -177,7 +177,7 @@
                         <div class="HS4P2Content">
                             <div class="HS4P2BP1 ar CairoLightH38px">{{ $homeS3['boxes'][1]['title_ar'] }}</div>
                             <div class="HS4P2Text ar CairoLightH38px"> {{ $homeS3['boxes'][1]['desc_ar'] }}</div>
-                            <a href="{{ route('Frontend.Ar.projects', ['scrollTo' => 'ProjectsCommercial']) }}"
+                            <a href="{{ route('Frontend.Ar.projects', ['scrollTo' => 'ProjectsInt']) }}"
                                 class="HS4P2Button ar CairoLightH24px">
                                 عرض المزيد
                                 <img src="{{ asset('frontend/svg/Arrow-Go-Out.svg') }}" alt="" />
@@ -255,7 +255,7 @@
                     </div>
                     <div class="HS6P1Text CairoLightH24px">
                         <div class="HS6P1T1">الأسئلة الشائعة</div>
-                        <div class="HS6P1T2">كل ما تحتاج إلى معرفته عن رؤى</div>
+                        <div class="HS6P1T2">كل ما تحتاج إلى معرفته عن Three Falcnos</div>
                     </div>
                 </div>
                 <!-- Faq Question -->

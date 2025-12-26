@@ -3,7 +3,7 @@
 @section('page-title', 'Edit Heros')
 @section('content')
     <div class="container py-4">
-        <form action="{{ route('hero.update') }}" method="POST">
+        <form action="{{ route('hero.update') }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
 
@@ -38,36 +38,6 @@
                             </div>
                         </div>
 
-                        @if ($page === 'home')
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <h4>Button Settings</h4>
-                                </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-md-4 mb-3">
-                                            <label class="form-label">Button Text (English)</label>
-                                            <input type="text" name="{{ $page }}[button][text_en]"
-                                                class="form-control"
-                                                value="{{ old("$page.button.text_en", $heroContents[$page]['button']['text_en'] ?? '') }}">
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label class="form-label">Button Text (Arabic)</label>
-                                            <input type="text" name="{{ $page }}[button][text_ar]"
-                                                class="form-control text-end"
-                                                value="{{ old("$page.button.text_ar", $heroContents[$page]['button']['text_ar'] ?? '') }}"
-                                                dir="rtl">
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label class="form-label">Button Link</label>
-                                            <input type="url" name="{{ $page }}[button][link]"
-                                                class="form-control"
-                                                value="{{ old("$page.button.link", $heroContents[$page]['button']['link'] ?? '#') }}">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        @endif
                     </div>
                 </div>
             @endforeach

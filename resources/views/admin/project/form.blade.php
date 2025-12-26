@@ -54,24 +54,6 @@
                         @enderror
                     </div>
 
-                    <div class="form-group m-form__group">
-                        <label class="form-label" for="category">Category (English / Arabic)</label>
-                        <select name="category" id="category"
-                            class="form-control @error('category') is-invalid @enderror" required>
-                            <option value="" disabled>Select a Category</option>
-                            <option value="Interroir & Exterroir"
-                                {{ old('category', $project->category ?? '') == 'Interroir & Exterroir' ? 'selected' : '' }}>
-                                Interroir & Exterroir - تصميم داخلي وخارجي
-                            </option>
-                            <option value="Commercial"
-                                {{ old('category', $project->category ?? '') == 'Commercial' ? 'selected' : '' }}>
-                                Commercial - تجاري
-                            </option>
-                        </select>
-                        @error('category')
-                            <div class="invalid-feedback d-block">{{ $message }}</div>
-                        @enderror
-                    </div>
                 </div>
 
                 <!-- Arabic Fields (Right Side) -->
@@ -122,8 +104,8 @@
             <div class="form-group m-form__group">
                 <label class="form-label">Images</label>
                 <div class="d-flex flex-wrap gap-2 image-gallery" style="gap: 10px;">
-                    @if (isset($project) && is_array(json_decode($project->images, true)))
-                        @foreach (json_decode($project->images, true) as $image)
+                    @if (isset($project) && is_array($project->images))
+                        @foreach ($project->images as $image)
                             <div class="image-box position-relative" style="width: 120px;">
                                 <img src="{{ asset('storage/' . $image) }}" class="img-thumbnail"
                                     style="border-radius: 8px;">

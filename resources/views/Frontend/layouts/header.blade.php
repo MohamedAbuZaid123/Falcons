@@ -2,14 +2,15 @@
 
 <header class="HeaderC">
     <a href="{{ route('Frontend.home') }}">
-        <img src="{{ asset('frontend/svg/Logo.svg') }}" alt="" class="HeadLogo" />
+        <img src="{{ isset($hero['logo']) ? asset('storage/' . $hero['logo']) : asset('frontend/svg/Logo.svg') }}"
+            alt="" class="HeadLogo" />
     </a>
 
     <!-- Navigation links -->
     <div class="MobileMenu" id="MobileMenu">
         <nav class="NavLinks" id="NavLinks">
             <a href="{{ route('Frontend.home') }}" class="HeadP2">Home</a>
-            <a href="{{ route('Frontend.about') }}" class="HeadP2">About Roaa</a>
+            <a href="{{ route('Frontend.about') }}" class="HeadP2">About Three Falcnos</a>
             <a href="{{ route('Frontend.services') }}" class="HeadP2">Our services</a>
             <a href="{{ route('Frontend.projects') }}" class="HeadP2">Our projects</a>
             <a href="{{ route('Frontend.contact') }}" class="HeadP2">Contact us</a>

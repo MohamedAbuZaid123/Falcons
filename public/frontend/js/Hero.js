@@ -1,12 +1,12 @@
 const images = [
-    "frontend/images/Hero/HeroImg1.webp",
-    "frontend/images/Hero/HeroImg2.webp",
-    "frontend/images/Hero/HeroImg3.webp",
-    "frontend/images/Hero/HeroImg4.webp",
-    "frontend/images/Hero/HeroImg5.webp",
-    "frontend/images/Hero/HeroImg6.webp",
-    "frontend/images/Hero/HeroImg7.webp",
-    "frontend/images/Hero/HeroImg8.webp",
+    "frontend/images/Hero/HeroImg1.JPG",
+    "frontend/images/Hero/HeroImg2.JPG",
+    "frontend/images/Hero/HeroImg3.JPG",
+    "frontend/images/Hero/HeroImg4.JPG",
+    "frontend/images/Hero/HeroImg5.JPG",
+    "frontend/images/Hero/HeroImg6.JPG",
+    "frontend/images/Hero/HeroImg7.JPG",
+    "frontend/images/Hero/HeroImg8.JPG",
 ];
 
 let current = 0;

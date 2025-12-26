@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\Admin\Project;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\admin\ProjectRequest;
+use App\Http\Requests\Admin\ProjectRequest;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Admin\Services;
 
@@ -27,7 +27,7 @@ class ProjectController extends Controller
     public function store(ProjectRequest $request)
     {
         $data = $request->validated();
-        $data['images'] = json_encode($request->input('uploaded_images', []));
+        $data['images'] = $request->input('uploaded_images', []);
         $project = Project::create($data);
         if ($request->has('services')) {
             $project->services()->sync($request->input('services'));
@@ -53,7 +53,7 @@ class ProjectController extends Controller
     {
         $data = $request->validated();
 
-        $existingImages = json_decode($project->images, true) ?? [];
+        $existingImages = $project->images ?? [];
         $uploadedImages = $request->input('uploaded_images', []);
         $removeImages = $request->input('remove_images', []);
 
@@ -66,7 +66,7 @@ class ProjectController extends Controller
         $remainingImages = array_diff($existingImages, $removeImages);
 
 
-        $data['images'] = json_encode(array_values(array_merge($remainingImages, $uploadedImages)));
+        $data['images'] = array_values(array_merge($remainingImages, $uploadedImages));
 
         $project->update($data);
         if ($request->has('services')) {

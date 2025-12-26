@@ -12,7 +12,8 @@
             <div class="HeroNavOverlayContent">
                 <!-- Logo -->
                 <div class="HeroNavLogo">
-                    <img src="{{ asset('frontend/svg/Hero/MiniLogo.svg') }}" alt="Logo" class="HeroMiniLogo" />
+                    <img src="{{ isset($hero['logo']) ? asset('storage/' . $hero['logo']) : asset('frontend/svg/Hero/MiniLogo.svg') }}"
+                        alt="Logo" class="HeroMiniLogo" />
                 </div>
 
                 <!-- Social Links -->
@@ -50,7 +51,7 @@
         <img src="{{ asset('frontend/svg/Hero/HeroCTop.svg') }}" alt="Top Decoration" class="HeroConImgT" />
 
         <div class="HeroTitle CairoRegH150">
-            @yield('heroTitle', 'ROAA')
+            @yield('heroTitle', 'Three Falcnos')
         </div>
 
         <div class="HeroDesc CairoLightH38px">

@@ -21,14 +21,16 @@ class ServicesRequest extends FormRequest
      */
     public function rules(): array
     {
+        $serviceId = $this->route('service') ? $this->route('service')->id : null;
+        
         return [
-            'title' => 'required|max:50|unique:services,title,' . ($this->service->id ?? ''),
-            'title_ar' => 'required|max:50|unique:services,title_ar,' . ($this->service->id ?? ''),
+            'title' => 'required|max:50|unique:services,title,' . $serviceId,
+            'title_ar' => 'nullable|max:50|unique:services,title_ar,' . $serviceId,
             'description' => 'required',
-            'description_ar' => 'required',
-            'icon' => 'required|image|mimes:svg,webp|max:20048',
-            'dark_icon' => 'required|image|mimes:xsvg,webp|max:20048',
-            'image' => 'required|image|mimes:jpeg,png,jpg,svg,webp|max:20048',
+            'description_ar' => 'nullable',
+            'icon' => 'nullable|image|mimes:svg,webp|max:20048',
+            'dark_icon' => 'nullable|image|mimes:svg,webp|max:20048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,svg,webp|max:20048',
         ];
     }
 

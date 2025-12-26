@@ -36,7 +36,6 @@
                             <th>ID</th>
                             <th>Title</th>
                             <th style="width:40%">Description</th>
-                            <th>Category</th>
                             <th>Created At</th>
                             <th style="width:8%">Status</th>
                             <th>Actions</th>
@@ -48,7 +47,6 @@
                                 <td>{{ $project->id }}</td>
                                 <td>{{ $project->title }}</td>
                                 <td style="width:35%">{{ $project->description }}</td>
-                                <td>{{ $project->category }}</td>
                                 <td>{{ $project->created_at }}</td>
                                 <td class="project-status" data-id="{{ $project->id }}">
                                     @if ($project->active)

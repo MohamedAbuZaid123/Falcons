@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
-    <title>@yield('title', 'Roaa')</title>
+    <title>@yield('title', 'Three Falcnos')</title>
     <meta name="description" content="Pagination options datatables examples" />
     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
     <!--begin::Web font -->
@@ -52,7 +52,7 @@
                         <div class="m-stack m-stack--ver m-stack--general">
                             <div class="m-stack__item m-stack__item--middle m-brand__logo">
                                 <a href="{{ route('user.index') }}" class="m-brand__logo-wrapper">
-                                    <h1>Roaa</h1>
+                                    <h1>Three Falcnos</h1>
                                 </a>
                             </div>
                             <div class="m-stack__item m-stack__item--middle m-brand__tools">
@@ -144,14 +144,14 @@
                             <h4 class="m-menu__section-text">Pages</h4>
                             <i class="m-menu__section-icon flaticon-more-v2"></i>
                         </li>
-                        <li class="m-menu__item {{ request()->routeIs('admin.home.edit') ? 'm-menu__item--active' : '' }}"
+                        <li class="m-menu__item {{ request()->routeIs('home.edit') ? 'm-menu__item--active' : '' }}"
                             aria-haspopup="true">
                             <a href="{{ route('home.edit') }}" class="m-menu__link"><span
                                     class="m-menu__item-here"></span><i
                                     class="m-menu__link-icon   flaticon-home-2"></i><span class="m-menu__link-text">Home
                                     Page</span></a>
                         </li>
-                        <li class="m-menu__item {{ request()->routeIs('admin.about.edit') ? 'm-menu__item--active' : '' }}"
+                        <li class="m-menu__item {{ request()->routeIs('about.edit') ? 'm-menu__item--active' : '' }}"
                             aria-haspopup="true">
                             <a href="{{ route('about.edit') }}" class="m-menu__link"><span
                                     class="m-menu__item-here"></span><i class="m-menu__link-icon  fa fa-users"></i><span
@@ -176,7 +176,7 @@
                                     class="m-menu__link-icon  fa fa-layer-group"></i><span
                                     class="m-menu__link-text">Services</span></a>
                         </li>
-                        <li class="m-menu__item {{ request()->routeIs('ContactUs.index') ? 'm-menu__item--active' : '' }}"
+                        <li class="m-menu__item {{ request()->routeIs('contactUs.index') ? 'm-menu__item--active' : '' }}"
                             aria-haspopup="true">
                             <a href="{{ route('contactUs.index') }}" class="m-menu__link"><span
                                     class="m-menu__item-here"></span><i
@@ -190,7 +190,7 @@
                                     class="m-menu__link-icon fa fa-question-circle"></i><span
                                     class="m-menu__link-text">FAQs</span></a>
                         </li>
-                        <li class="m-menu__item {{ request()->routeIs('admin.hero.edit') ? 'm-menu__item--active' : '' }}"
+                        <li class="m-menu__item {{ request()->routeIs('hero.edit') ? 'm-menu__item--active' : '' }}"
                             aria-haspopup="true">
                             <a href="{{ route('hero.edit') }}" class="m-menu__link"><span
                                     class="m-menu__item-here"></span><i
@@ -225,8 +225,7 @@
                 <div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
                     <div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
                         <span class="m-footer__copyright">
-                            2025 &copy; Roaa by
-                            <a href="https://bytesway.io/" class="m-link">Bytesway</a>
+                            2026 &copy; Three Falcnos
                         </span>
                     </div>
                     <div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">

@@ -1,12 +1,12 @@
 @extends('Frontend.layouts.app')
 
-@section('title', 'Roaa - Home')
+@section('title', 'Three Falcnos - Home')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/Home.css') }}" />
 @endpush
 
-@section('heroTitle', $hero['title_en'] ?? 'ROAA')
+@section('heroTitle', $hero['title_en'] ?? 'Three Falcnos')
 
 @section('heroButtonText', $hero['button']['text_en'] ?? 'See Our Work')
 
@@ -31,7 +31,7 @@
             <section class="HomeS1">
                 <img src="{{ asset('frontend/svg/Home/HomeS1L.svg') }}" alt="" class="HomeS1Limg" />
                 <img src="{{ asset('frontend/svg/Home/HomeS1R.svg') }}" alt="" class="HomeS1Rimg" />
-                <div class="HomeS1P1 CairoRegH38px">{{ $homeS1['title_en'] }}</div>
+                <div class="HomeS1P1 CairoRegH38px">{{ $homeS1['title_en'] ?? 'frontend/svg/Home' }}</div>
                 <div class="HomeS1P2">
                     <!-- Box 1 -->
                     @for ($i = 0; $i < 4; $i++)
@@ -203,7 +203,7 @@
                                 {{ $homeS3['boxes'][1]['desc_en'] }}
                             </div>
                             <a
-                                href="{{ route('Frontend.projects', ['scrollTo' => 'ProjectsCommercial']) }}"class="HS4P2Button CairoLightH24px">
+                                href="{{ route('Frontend.projects', ['scrollTo' => 'ProjectsInt']) }}"class="HS4P2Button CairoLightH24px">
                                 VIEW MORE
                                 <img src="{{ asset('frontend/svg/Arrow-Go-Out.svg') }}" alt="" />
                             </a>
@@ -288,7 +288,7 @@
                             Frequently asked questions
                         </div>
                         <div class="HS6P1T2">
-                            Everything you need to know about RoAA
+                            Everything you need to know about Three Falcnos
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ use App\Models\Admin\Services;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
-use App\Http\Requests\admin\ServicesRequest;
+use App\Http\Requests\Admin\ServicesRequest;
 
 class ServicesController extends Controller
 {
@@ -98,17 +98,4 @@ class ServicesController extends Controller
         return response()->json(['success' => true]);
     }
 
-    public function uploadImage(Request $request)
-    {
-        $request->validate([
-            'file' => 'required|mimes:jpeg,png,jpg,gif,webp,svg,svg+xml|max:5120', // max 5MB
-        ]);
-
-        if ($request->hasFile('file')) {
-            $path = $request->file('file')->store('services_images', 'public');
-            return response()->json(['file_path' => $path]);
-        }
-
-        return response()->json(['error' => 'No file uploaded'], 400);
-    }
 }

@@ -46,7 +46,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 
     Route::resource('services', ServicesController::class);
     Route::post('/services/{id}/toggle-active', [ServicesController::class, 'toggleActive']);
-    Route::post('services/upload-image', [ServicesController::class, 'uploadImage'])->name('services.uploadImage');
     Route::resource('contactUs', ContactUsController::class)->parameters([
     'contactUs' => 'contactUs'
 ]);
@@ -122,7 +121,7 @@ Route::prefix('ar')->group(function () {
 
         $hero = PageContent::where('page', 'projects')->where('section', 'hero')->first();
 
-        return  view('Frontend.project', [
+        return  view('Frontend.Ar.project', [
         'project' => $project,
         'services' => $project->services,
         'hero' => $hero ? json_decode($hero->content, true) : [],

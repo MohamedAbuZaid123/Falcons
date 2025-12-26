@@ -21,12 +21,13 @@ class ProjectRequest extends FormRequest
      */
     public function rules(): array
     {
+        $projectId = $this->route('project') ? $this->route('project')->id : null;
+        
         return [
-            'title' => 'required|max:50|unique:projects,title,' . ($this->project->id ?? ''),
-            'title_ar' => 'required|max:50|unique:projects,title_ar,' . ($this->project->id ?? ''),
+            'title' => 'required|max:50|unique:projects,title,' . $projectId,
+            'title_ar' => 'nullable|max:50|unique:projects,title_ar,' . $projectId,
             'description' => 'required',
-            'description_ar' => 'required',
-            'category' => 'required',
+            'description_ar' => 'nullable',
             'services' => 'required',
         ];
     }
@@ -40,7 +41,6 @@ class ProjectRequest extends FormRequest
             'description_ar.nullable' => 'The Arabic Description is optional.',
             'title_ar.max' => 'The Arabic Title cannot exceed 40 characters.',
             'title_ar.unique' => 'This Arabic Title is already registered.',
-            'category.required' => 'The Category is required.',
             'services.required' => 'atleast add one service',
 
         ];

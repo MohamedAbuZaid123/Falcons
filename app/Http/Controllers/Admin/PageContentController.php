@@ -210,6 +210,20 @@ class PageContentController extends Controller
                 )
             ];
 
+            // Preserve existing content if present to avoid dropping logo when updating other fields
+            $existing = PageContent::where('page', $page)->where('section', 'hero')->first();
+            if ($existing) {
+                $existingContent = json_decode($existing->content, true) ?: [];
+                $content = array_merge($existingContent, $content);
+            }
+
+            // Handle optional logo upload per page
+            if ($request->hasFile("$page.logo_file")) {
+                $file = $request->file("$page.logo_file");
+                $path = $file->store('logos', 'public');
+                $content['logo'] = $path;
+            }
+
             if ($page === 'home') {
                 $content['button'] = [
                     'text_en' => $request->input("$page.button.text_en"),
