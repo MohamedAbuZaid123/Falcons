@@ -3,7 +3,7 @@
 @section('title', 'Three Falcons - Projects')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('frontend/css/projects.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/projects.css') }}?v={{ filemtime(public_path('frontend/css/projects.css')) }}" />
 @endpush
 
 @section('heroTitle', $hero['title_ar'] ?? 'مشاريعنا')
@@ -125,5 +125,5 @@
 @endsection
 
 @push('scripts')
-    <script src="{{ asset('frontend/js/Projects.js') }}"></script>
+    <script src="{{ asset('frontend/js/Projects.js') }}?v={{ filemtime(public_path('frontend/js/Projects.js')) }}"></script>
 @endpush

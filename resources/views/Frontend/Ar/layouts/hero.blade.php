@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('frontend/css/Hero.css') }}" />
+<link rel="stylesheet" href="{{ asset('frontend/css/Hero.css') }}?v={{ filemtime(public_path('frontend/css/Hero.css')) }}" />
 
 <section class="HeroSlider" id="HeroSliderContainer">
     <!-- Navbar Toggle -->
@@ -71,5 +71,5 @@
 </section>
 
 @push('scripts')
-    <script src="{{ asset('frontend/js/Hero.js') }}"></script>
+    <script src="{{ asset('frontend/js/Hero.js') }}?v={{ filemtime(public_path('frontend/js/Hero.js')) }}"></script>
 @endpush

@@ -2,7 +2,7 @@
 @section('title', 'Three Falcons - Contact us')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('frontend/css/contact.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/contact.css') }}?v={{ filemtime(public_path('frontend/css/contact.css')) }}" />
 @endpush
 
 
@@ -124,5 +124,5 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <!-- SweetAlert2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('frontend/js/contact.js') }}"></script>
+    <script src="{{ asset('frontend/js/contact.js') }}?v={{ filemtime(public_path('frontend/js/contact.js')) }}"></script>
 @endpush

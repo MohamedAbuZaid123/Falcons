@@ -3,7 +3,7 @@
 @section('title', 'Three Falcons - Services')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('frontend/css/services.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/services.css') }}?v={{ filemtime(public_path('frontend/css/services.css')) }}" />
 @endpush
 
 @section('heroTitle', $hero['title_en'] ?? 'Our Services')

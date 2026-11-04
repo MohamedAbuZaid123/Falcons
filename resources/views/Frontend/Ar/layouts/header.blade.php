@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}" />
+<link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}?v={{ filemtime(public_path('frontend/css/header.css')) }}" />
 
 <header class="HeaderC" dir="rtl">
     <a href="{{ route('Frontend.Ar.home') }}">

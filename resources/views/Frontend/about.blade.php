@@ -17,7 +17,7 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('frontend/css/about.css') }}" />
+    <link rel="stylesheet" href="{{ asset('frontend/css/about.css') }}?v={{ filemtime(public_path('frontend/css/about.css')) }}" />
 @endpush
 
 @section('content')
@@ -152,5 +152,5 @@
 @endsection
 
 @push('scripts')
-    <script src="{{ asset('frontend/js/about.js') }}"></script>
+    <script src="{{ asset('frontend/js/about.js') }}?v={{ filemtime(public_path('frontend/js/about.js')) }}"></script>
 @endpush

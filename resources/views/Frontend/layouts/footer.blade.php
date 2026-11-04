@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('frontend/css/footer.css') }}" />
+<link rel="stylesheet" href="{{ asset('frontend/css/footer.css') }}?v={{ filemtime(public_path('frontend/css/footer.css')) }}" />
 <footer class="FooterC">
     <!-- Footer P1 -->
     <div class="FooterP1">
