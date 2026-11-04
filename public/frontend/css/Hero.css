@@ -40,8 +40,12 @@
   }
   .HeroBtn {
     display: flex;
-    width: 241px;
-    padding: 14px 27.5px;
+    /* Sized with the screen (vw) like the text inside it, so the text never
+       overflows or overlaps on large screens or when the browser is zoomed out */
+    width: auto;
+    min-width: 12.5vw;
+    padding: 0.75vw 1.45vw;
+    white-space: nowrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -58,6 +62,10 @@
   .HeroBtn:hover {
     background-color: #f9f6c8;
     color: #653112;
+  }
+  /* Beats the fixed 24px/20px line-height of the font classes on the button */
+  .HeroA .HeroBtn {
+    line-height: 1.3;
   }
 
   .HeroImageWrapper {

@@ -82,11 +82,12 @@
 .ar.HeadP2:visited {
   color: #f9f6c8;
   text-align: center;
-  font-family: ChangaM;
-  font-size: var(--font-16px);
+  /* Same size and weight as the English header buttons */
+  font-family: ChangaR;
+  font-size: var(--font-12px);
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.2;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -109,7 +110,10 @@
   }
   .HeadP2,
   .HeadP2:active,
-  .HeadP2:visited {
+  .HeadP2:visited,
+  .ar.HeadP2,
+  .ar.HeadP2:active,
+  .ar.HeadP2:visited {
     font-size: var(--font-20px);
     color: #e9dc82;
   }

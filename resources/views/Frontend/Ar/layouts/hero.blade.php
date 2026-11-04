@@ -59,7 +59,7 @@
         </div>
 
         @if (Route::currentRouteNamed('Frontend.Ar.home'))
-            <a href="{{ route('Frontend.projects') }}" class="HeroA">
+            <a href="{{ route('Frontend.Ar.projects') }}" class="HeroA">
                 <button class="HeroBtn CairoRegH24px">
                     @yield('heroButtonText', 'عرض أعمالنا')
                 </button>

@@ -79,6 +79,15 @@ body {
   overflow-x: clip;
 }
 
+/* Hide the browser's scroll bars (the page still scrolls with the mouse wheel, touch and keys) */
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
 /* Root For WebView */
 :root {
   /*  */
