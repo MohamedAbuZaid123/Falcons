@@ -95,7 +95,10 @@ class ProjectController extends Controller
     public function Image(Request $request)
     {
         $request->validate([
-            'file' => 'required|mimes:jpeg,png,jpg,gif,webp,svg,svg+xml|max:5120', // max 5MB
+            // max 10MB; at least 1000px wide so photos look sharp on the project page
+            'file' => 'required|mimes:jpeg,png,jpg,gif,webp,svg,svg+xml|max:10240|dimensions:min_width=1000',
+        ], [
+            'file.dimensions' => 'This image is too small and will look blurry on the website. Please upload the original photo (at least 1000 pixels wide), not a thumbnail or a WhatsApp/screenshot copy.',
         ]);
 
         if ($request->hasFile('file')) {

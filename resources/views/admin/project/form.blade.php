@@ -181,8 +181,22 @@
         const dropzone = new Dropzone("#m-dropzone-three", {
             url: "{{ route('project.Image') }}",
             paramName: "file",
-            maxFilesize: 5,
+            // Large phone/camera photos are accepted, then scaled down in the browser to
+            // at most 2560px on the long side (never enlarged), so they upload fast but stay sharp.
+            maxFilesize: 25,
             acceptedFiles: "image/*",
+            resizeWidth: 2560,
+            resizeHeight: 2560,
+            resizeMethod: 'contain',
+            resizeQuality: 0.9,
+            transformFile: function(file, done) {
+                // Only resize normal photos; leave SVG and animated GIF untouched
+                if (/^image\/(jpeg|png|webp)$/.test(file.type)) {
+                    return this.resizeImage(file, this.options.resizeWidth, this.options.resizeHeight,
+                        this.options.resizeMethod, done);
+                }
+                return done(file);
+            },
             maxFiles: 20,
             addRemoveLinks: false,
             headers: {
@@ -207,8 +221,20 @@
 
                 $('#dropzone-trigger').before(imageBox);
             },
-            error: function(file, response) {
+            error: function(file, response, xhr) {
                 console.error('Upload failed:', response);
+                let message = 'Upload failed for "' + file.name + '".';
+                if (xhr && xhr.status === 413) {
+                    message += ' The file is too large for the server.';
+                } else if (response && response.errors && response.errors.file) {
+                    message += ' ' + response.errors.file.join(' ');
+                } else if (response && response.message) {
+                    message += ' ' + response.message;
+                } else if (typeof response === 'string' && response.length < 300) {
+                    message += ' ' + response;
+                }
+                alert(message);
+                this.removeFile(file);
             }
         });
 

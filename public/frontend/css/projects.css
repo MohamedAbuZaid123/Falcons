@@ -95,6 +95,7 @@
 .ProComP1 img {
   width: 20vw;
   height: 15vw;
+  object-fit: cover;
   border-radius: var(--PMGR-8px);
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;

@@ -61,7 +61,7 @@
   position: relative;
   height: 5vw;
   background-color: #f9f5dc;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 .FooC2S {
@@ -95,7 +95,7 @@
 @media (max-width: 768px) {
   .FooterC {
     height: auto;
-    width: 100vw;
+    width: 100%;
   }
   .FooterP1 {
     display: flex;
@@ -150,6 +150,6 @@
     width: 7vw;
   }
   .FooterC2 {
-    width: 100vw;
+    width: 100%;
   }
 }
