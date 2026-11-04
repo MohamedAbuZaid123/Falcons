@@ -235,3 +235,25 @@ Route::get('/', function () {
     ]);
 })->name('Frontend.home');
 
+
+// Sitemap for search engines: every public page in English and Arabic, plus each active project
+Route::get('/sitemap.xml', function () {
+    $urls = [];
+    foreach (['/', '/about', '/services', '/projects', '/contact'] as $path) {
+        $urls[] = url($path);
+        $urls[] = url('/ar' . ($path === '/' ? '' : $path));
+    }
+    foreach (Project::where('active', '1')->pluck('id') as $id) {
+        $urls[] = url('/projects/' . $id);
+        $urls[] = url('/ar/projects/' . $id);
+    }
+
+    $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n"
+        . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+    foreach ($urls as $u) {
+        $xml .= '  <url><loc>' . e($u) . '</loc></url>' . "\n";
+    }
+    $xml .= '</urlset>' . "\n";
+
+    return response($xml, 200, ['Content-Type' => 'application/xml; charset=UTF-8']);
+})->name('sitemap');
