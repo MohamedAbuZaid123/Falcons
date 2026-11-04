@@ -1,6 +1,6 @@
 @extends('Frontend.Ar.layouts.app')
 
-@section('title', 'Three Falcons - Home')
+@section('title', 'Three Falcons - About Us')
 
 @section('heroTitle', $hero['title_ar'] ?? 'عن Three Falcons')
 
