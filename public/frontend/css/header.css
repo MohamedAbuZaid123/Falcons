@@ -6,12 +6,16 @@
 }
 .HeaderC {
   position: absolute;
-  left: 14%;
+  /* Centred, and the same width in English and Arabic */
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  min-width: 70vw;
   z-index: 10;
   display: inline-flex;
   padding: var(--PMGR-8px) var(--PMGR-32px);
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: var(--PMGR-48px);
   border-radius: var(--PMGR-8px);
   background: #30383d;
@@ -96,6 +100,8 @@
   .HeaderC {
     top: -9vw;
     left: 0;
+    transform: none;
+    min-width: 0;
     width: 100%;
     justify-content: space-between;
     border-radius: 0;

@@ -2,6 +2,10 @@
   position: relative;
   overflow-x: hidden;
 }
+/* The container centres its child, so stretch it to the full page width */
+#HomeContent {
+  width: 100%;
+}
 
 /* Home Section 1 */
 .HomeS1 {
@@ -309,7 +313,7 @@
 /* For Left Box */
 .HS4P2B,
 .HS4P2BR {
-  width: 49.5vw;
+  width: 50vw;
   height: 32.5vw;
   position: relative;
   background-position: center;
@@ -443,7 +447,7 @@
 /* For Boxes  */
 .HS5P2BL,
 .HS5P2BR {
-  width: 49.5vw;
+  width: 50vw;
   height: 27.5vw;
   position: relative;
   background-position: center;
