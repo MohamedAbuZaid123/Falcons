@@ -1,9 +1,9 @@
 @extends('Frontend.layouts.app')
 
-@section('title', 'Three Falcnos - About Us')
+@section('title', 'Three Falcons - About Us')
 
 
-@section('heroTitle', $hero['title_en'] ?? 'About Three Falcnos')
+@section('heroTitle', $hero['title_en'] ?? 'About Three Falcons')
 
 @section('heroDescription')
     @if (isset($hero['descriptions_en']))
@@ -11,7 +11,7 @@
             <span>{{ $line }}</span><br />
         @endforeach
     @else
-        <span>At Three Falcnos Development, We turn visions into meaningful spaces</span><br />
+        <span>At Three Falcons Development, We turn visions into meaningful spaces</span><br />
         <span> it deserves meaning, comfort, and a future.</span>
     @endif
 @endsection

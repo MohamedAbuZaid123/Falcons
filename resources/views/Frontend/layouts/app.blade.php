@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}" />
     <link rel="shortcut icon" href="{{ asset('frontend/svg/Hero/MiniLogo.svg') }}" />
-    <title>@yield('title', 'Three Falcnos')</title>
+    <title>@yield('title', 'Three Falcons')</title>
     @stack('styles')
     @push('styles')
         <link rel="stylesheet" href="{{ asset('frontend/css/Hero.css') }}" />

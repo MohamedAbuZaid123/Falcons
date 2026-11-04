@@ -51,7 +51,7 @@
         <img src="{{ asset('frontend/svg/Hero/HeroCTop.svg') }}" alt="Top Decoration" class="HeroConImgT" />
 
         <div class="HeroTitle CairoRegH150">
-            @yield('heroTitle', 'Three Falcnos')
+            @yield('heroTitle', 'Three Falcons')
         </div>
 
         <div class="HeroDesc CairoLightH38px">

@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/contact.css') }}" />
 @endpush
 
-@section('title', 'Three Falcnos - Contact us')
+@section('title', 'Three Falcons - Contact us')
 
 @section('heroTitle', $hero['title_en'] ?? 'Contact Us')
 
@@ -14,7 +14,7 @@
         @endforeach
     @else
         <span>Let’s Build the Future Together.</span><br />
-        <span>Three Falcnos Development is by your side every step of the way.</span>
+        <span>Three Falcons Development is by your side every step of the way.</span>
     @endif
 @endsection
 

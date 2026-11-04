@@ -32,30 +32,30 @@ class DatabaseSeeder extends Seeder
                 'remember_token' => Str::random(10),
             ]);
 
-        // // Add 4 dummy FAQ entries for Three Falcnos project
+        // // Add 4 dummy FAQ entries for Three Falcons project
         // \App\Models\admin\Faq::insert([
         //     [
-        //         'question' => 'What services does Three Falcnos offer?',
-        //         'answer' => 'Three Falcnos provides a wide range of digital solutions including web development, mobile app development, UI/UX design, and digital marketing to help businesses grow online.',
-        //         'question_ar' => 'ما هي الخدمات التي تقدمها Three Falcnos؟',
-        //         'answer_ar' => 'تقدم Three Falcnos مجموعة واسعة من الحلول الرقمية بما في ذلك تطوير المواقع والتطبيقات وتصميم واجهات المستخدم والتسويق الرقمي لمساعدة الشركات على النمو عبر الإنترنت.',
+        //         'question' => 'What services does Three Falcons offer?',
+        //         'answer' => 'Three Falcons provides a wide range of digital solutions including web development, mobile app development, UI/UX design, and digital marketing to help businesses grow online.',
+        //         'question_ar' => 'ما هي الخدمات التي تقدمها Three Falcons؟',
+        //         'answer_ar' => 'تقدم Three Falcons مجموعة واسعة من الحلول الرقمية بما في ذلك تطوير المواقع والتطبيقات وتصميم واجهات المستخدم والتسويق الرقمي لمساعدة الشركات على النمو عبر الإنترنت.',
         //     ],
         //     [
-        //         'question' => 'How can I contact Three Falcnos for a project inquiry?',
-        //         'answer' => 'You can reach out to us through the Contact Us page on our website, or email us directly at info@Three Falcnos.com. We aim to respond to all inquiries within 24 hours.',
-        //         'question_ar' => 'كيف يمكنني التواصل مع Three Falcnos للاستفسار عن مشروع؟',
-        //         'answer_ar' => 'يمكنك التواصل معنا من خلال صفحة اتصل بنا على موقعنا أو عبر البريد الإلكتروني info@Three Falcnos.com. نسعى للرد على جميع الاستفسارات خلال 24 ساعة.',
+        //         'question' => 'How can I contact Three Falcons for a project inquiry?',
+        //         'answer' => 'You can reach out to us through the Contact Us page on our website, or email us directly at info@Three Falcons.com. We aim to respond to all inquiries within 24 hours.',
+        //         'question_ar' => 'كيف يمكنني التواصل مع Three Falcons للاستفسار عن مشروع؟',
+        //         'answer_ar' => 'يمكنك التواصل معنا من خلال صفحة اتصل بنا على موقعنا أو عبر البريد الإلكتروني info@Three Falcons.com. نسعى للرد على جميع الاستفسارات خلال 24 ساعة.',
         //     ],
         //     [
-        //         'question' => 'Does Three Falcnos provide support after project delivery?',
-        //         'answer' => 'Yes, Three Falcnos offers ongoing support and maintenance packages to ensure your project continues to run smoothly after launch.',
-        //         'question_ar' => 'هل تقدم Three Falcnos الدعم بعد تسليم المشروع؟',
-        //         'answer_ar' => 'نعم، تقدم Three Falcnos باقات دعم وصيانة مستمرة لضمان استمرار عمل مشروعك بسلاسة بعد الإطلاق.',
+        //         'question' => 'Does Three Falcons provide support after project delivery?',
+        //         'answer' => 'Yes, Three Falcons offers ongoing support and maintenance packages to ensure your project continues to run smoothly after launch.',
+        //         'question_ar' => 'هل تقدم Three Falcons الدعم بعد تسليم المشروع؟',
+        //         'answer_ar' => 'نعم، تقدم Three Falcons باقات دعم وصيانة مستمرة لضمان استمرار عمل مشروعك بسلاسة بعد الإطلاق.',
         //     ],
         //     [
-        //         'question' => 'Can Three Falcnos help with branding and design?',
+        //         'question' => 'Can Three Falcons help with branding and design?',
         //         'answer' => 'Absolutely! Our team specializes in branding, logo design, and creating a unique visual identity that aligns with your business goals.',
-        //         'question_ar' => 'هل يمكن لThree Falcnos المساعدة في العلامة التجارية والتصميم؟',
+        //         'question_ar' => 'هل يمكن لThree Falcons المساعدة في العلامة التجارية والتصميم؟',
         //         'answer_ar' => 'بالتأكيد! يتخصص فريقنا في العلامة التجارية وتصميم الشعارات وإنشاء هوية بصرية فريدة تتماشى مع أهداف عملك.',
         //     ],
         // ]);

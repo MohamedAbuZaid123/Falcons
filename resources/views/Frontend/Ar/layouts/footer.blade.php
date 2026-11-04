@@ -46,7 +46,7 @@
 <!--  -->
 <footer class="FooterC2" dir="rtl">
     <div class="FooC2S">
-        <div class="FooC2SP1 CairoLightH24px">© 2025 Three Falcnos . جميع الحقوق محفوظة.</div>
+        <div class="FooC2SP1 CairoLightH24px">© 2025 Three Falcons . جميع الحقوق محفوظة.</div>
         <div class="FooC2SP2">
             <a href="{{ $contactInfo->social_links['facebook'] ?? '#' }}" target="_blank" class="FooC2SP2A">
                 <img src="{{ asset('frontend/svg/Footer/FooterIconFB.svg') }}" alt="" />

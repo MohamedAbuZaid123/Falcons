@@ -1,6 +1,6 @@
 @extends('Frontend.Ar.layouts.app')
 
-@section('title', 'Three Falcnos - Projects')
+@section('title', 'Three Falcons - Projects')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/projects.css') }}" />

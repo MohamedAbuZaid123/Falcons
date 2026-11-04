@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
-    <title>@yield('title', 'Three Falcnos')</title>
+    <title>@yield('title', 'Three Falcons')</title>
     <meta name="description" content="Pagination options datatables examples" />
     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
     <!--begin::Web font -->
@@ -52,7 +52,7 @@
                         <div class="m-stack m-stack--ver m-stack--general">
                             <div class="m-stack__item m-stack__item--middle m-brand__logo">
                                 <a href="{{ route('user.index') }}" class="m-brand__logo-wrapper">
-                                    <h1>Three Falcnos</h1>
+                                    <h1>Three Falcons</h1>
                                 </a>
                             </div>
                             <div class="m-stack__item m-stack__item--middle m-brand__tools">
@@ -225,7 +225,7 @@
                 <div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
                     <div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
                         <span class="m-footer__copyright">
-                            2026 &copy; Three Falcnos
+                            2026 &copy; Three Falcons
                         </span>
                     </div>
                     <div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">

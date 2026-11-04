@@ -1,6 +1,6 @@
 @extends('Frontend.layouts.app')
 
-@section('title', 'Three Falcnos - Services')
+@section('title', 'Three Falcons - Services')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/services.css') }}" />

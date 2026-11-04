@@ -1,12 +1,12 @@
 @extends('Frontend.Ar.layouts.app')
 
-@section('title', 'Three Falcnos - Home')
+@section('title', 'Three Falcons - Home')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/Home.css') }}" />
 @endpush
 
-@section('heroTitle', $hero['title_ar'] ?? 'Three Falcnos')
+@section('heroTitle', $hero['title_ar'] ?? 'Three Falcons')
 
 @section('heroButtonText', $hero['button']['text_ar'] ?? 'عرض أعمالنا')
 
@@ -255,7 +255,7 @@
                     </div>
                     <div class="HS6P1Text CairoLightH24px">
                         <div class="HS6P1T1">الأسئلة الشائعة</div>
-                        <div class="HS6P1T2">كل ما تحتاج إلى معرفته عن Three Falcnos</div>
+                        <div class="HS6P1T2">كل ما تحتاج إلى معرفته عن Three Falcons</div>
                     </div>
                 </div>
                 <!-- Faq Question -->

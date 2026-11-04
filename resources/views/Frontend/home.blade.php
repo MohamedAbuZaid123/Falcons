@@ -1,12 +1,12 @@
 @extends('Frontend.layouts.app')
 
-@section('title', 'Three Falcnos - Home')
+@section('title', 'Three Falcons - Home')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/Home.css') }}" />
 @endpush
 
-@section('heroTitle', $hero['title_en'] ?? 'Three Falcnos')
+@section('heroTitle', $hero['title_en'] ?? 'Three Falcons')
 
 @section('heroButtonText', $hero['button']['text_en'] ?? 'See Our Work')
 
@@ -288,7 +288,7 @@
                             Frequently asked questions
                         </div>
                         <div class="HS6P1T2">
-                            Everything you need to know about Three Falcnos
+                            Everything you need to know about Three Falcons
                         </div>
                     </div>
                 </div>

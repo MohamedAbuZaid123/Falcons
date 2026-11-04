@@ -1,8 +1,8 @@
 @extends('Frontend.Ar.layouts.app')
 
-@section('title', 'Three Falcnos - Home')
+@section('title', 'Three Falcons - Home')
 
-@section('heroTitle', $hero['title_ar'] ?? 'عن Three Falcnos')
+@section('heroTitle', $hero['title_ar'] ?? 'عن Three Falcons')
 
 @section('heroDescription')
     @if (isset($hero['descriptions_ar']))
@@ -10,7 +10,7 @@
             <span>{{ $line }}</span><br />
         @endforeach
     @else
-        <span> في شركة Three Falcnos للتطوير، نحول الThree Falcnos إلى مساحات ذات معنى </span><br />
+        <span> في شركة Three Falcons للتطوير، نحول الرؤى إلى مساحات ذات معنى </span><br />
         <span> فهي تستحق المعنى والراحة والمستقبل.</span>
     @endif
 @endsection
