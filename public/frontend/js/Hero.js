@@ -1,12 +1,10 @@
 const images = [
-    "frontend/images/Hero/HeroImg1.JPG",
-    "frontend/images/Hero/HeroImg2.JPG",
-    "frontend/images/Hero/HeroImg3.JPG",
-    "frontend/images/Hero/HeroImg4.JPG",
-    "frontend/images/Hero/HeroImg5.JPG",
-    "frontend/images/Hero/HeroImg6.JPG",
-    "frontend/images/Hero/HeroImg7.JPG",
-    "frontend/images/Hero/HeroImg8.JPG",
+    "/frontend/images/Hero/HeroImg1.jpg",
+    "/frontend/images/Hero/HeroImg2.jpg",
+    "/frontend/images/Hero/HeroImg3.jpg",
+    "/frontend/images/Hero/HeroImg4.jpg",
+    "/frontend/images/Hero/HeroImg5.jpg",
+    "/frontend/images/Hero/HeroImg6.jpg",
 ];
 
 let current = 0;
@@ -87,7 +85,7 @@ setTimeout(() => {
     const iconImg = document.getElementById("HeroNavIconImg");
 
     if (window.innerWidth <= 768 && iconImg) {
-        iconImg.src = "frontend/svg/Open.svg";
+        iconImg.src = "/frontend/svg/Open.svg";
     }
 
     if (!toggleBtn || !overlay) {
@@ -100,9 +98,9 @@ setTimeout(() => {
 
         if (window.innerWidth <= 768 && iconImg) {
             if (overlay.classList.contains("active")) {
-                iconImg.src = "frontend/svg/CloseMob.svg";
+                iconImg.src = "/frontend/svg/CloseMob.svg";
             } else {
-                iconImg.src = "frontend/svg/Open.svg";
+                iconImg.src = "/frontend/svg/Open.svg";
             }
         }
     });

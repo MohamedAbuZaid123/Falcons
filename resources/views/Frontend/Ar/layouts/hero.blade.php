@@ -39,7 +39,7 @@
 
     <!-- Background Images -->
     <div class="HeroImageWrapper">
-        <img class="HeroImage current" src="{{ asset('frontend/images/Hero/HeroImg1.webp') }}" alt="Hero Image" />
+        <img class="HeroImage current" src="{{ asset('frontend/images/Hero/HeroImg1.jpg') }}" alt="Hero Image" />
         <img class="HeroImage next" src="" alt="" />
     </div>
 
